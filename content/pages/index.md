@@ -1,6 +1,6 @@
 ---
 templateKey: home
-title: Test
+title: Test home
 subtitle: test
 ---
 test test test
