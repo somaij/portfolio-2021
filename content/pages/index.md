@@ -1,4 +1,5 @@
 ---
+templateKey: home
 title: Test
 subtitle: test
 ---
