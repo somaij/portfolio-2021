@@ -14,7 +14,9 @@ summary: "[During my 5 weeks at
   and testing our solutions by having users navigate rough sketches (using the
   [Marvel ](https://marvelapp.com/)app) and low fidelity wireframes (using
   [Moqups](https://moqups.com))."
-summary-buttons: []
+summary-buttons:
+  - btnlink: https://app.moqups.com/JSomai/Aln757niFM/view/page/aa9df7b72
+    btntext: View Wireframe
 glance:
   - image: assets/sketches.jpg
     title: Initial Sketches
