@@ -22,7 +22,7 @@ glance:
     title: Initial Sketches
     description: These (crudely) hand drawn sketches were what I started to
       prototype with. My classmates tested my user flows with these.
-    btnlink: sketches
+    btnlink: user-flows-&-sketches
     btntext: Skip to Sketches
   - image: assets/wireframe.png
     title: Final Prototype
