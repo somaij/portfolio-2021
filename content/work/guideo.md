@@ -24,6 +24,18 @@ glance:
       prototype with. My classmates tested my user flows with these.
     btnlink: sketches
     btntext: Skip to Sketches
+  - image: assets/wireframe.png
+    title: Final Prototype
+    description: The final low fidelity wireframe was made in Moqups. It’s fully
+      interactive with hotspots to click on and navigate through the prototype.
+    btnlink: wireframe
+    btntext: Skip to Wireframe
+  - title: Presentation
+    description: "The final presentation was the culmination of everything we had
+      done during the 5 week bootcamp. "
+    btnlink: presentation
+    btntext: Skip to Presentation
+    image: assets/final-pres.png
 workContent:
   - sectionTitle: Research
     sectionText: >-
