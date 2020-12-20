@@ -15,6 +15,13 @@ summary: "[During my 5 weeks at
   [Marvel ](https://marvelapp.com/)app) and low fidelity wireframes (using
   [Moqups](https://moqups.com))."
 summary-buttons: []
+glance:
+  - image: assets/sketches.jpg
+    title: Initial Sketches
+    description: These (crudely) hand drawn sketches were what I started to
+      prototype with. My classmates tested my user flows with these.
+    btnlink: sketches
+    btntext: Skip to Sketches
 workContent:
   - sectionTitle: Research
     sectionText: >-
