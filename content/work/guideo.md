@@ -164,7 +164,7 @@ workContent:
 
       2. Pricing information is readily available, and it notifies if a route is presto only.
 
-      3. It will notify and provide alternative **walking **routes when there is a delay.
+      3. It will notify and provide alternative **walking** routes when there is a delay.
 
       I came away from the course with a greater understand of how to produce a better user experience. I learned how to throw away my ego when being critiqued. How to stay silent and provide not provide answers during user testing. When and how to prod for knowledge the interviewee thought was common sense.
 
