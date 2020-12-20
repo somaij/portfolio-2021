@@ -71,6 +71,14 @@ workContent:
 
 
       Surprisingly, none of my interviewees didn't mind walking 20 minutes if they didn't need to take another streetcar or bus.
+  - sectionTitle: Personas
+    sectionText: >-
+      Using the information I gathered, I created two personas to embody the two
+      user flows I was working towards. 
+
+      ![Sara - Persona for Guideo](/assets/sara.jpg)
+
+      ![Rupert - Persona for Guideo](/assets/rupert.jpg)
 ctaTitle: Let's Talk
 ctaText: Want to talk about UX? Great! Get in touch pronto.
 ctaBtn: Connect
