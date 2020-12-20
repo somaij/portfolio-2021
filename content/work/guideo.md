@@ -158,6 +158,7 @@ workContent:
 
       * Wireframe
 
+
       The differentiating factors of Guideo were three things:
 
       1. A faster way to identify alternative routes, and modify specific parts of a route with walking.
