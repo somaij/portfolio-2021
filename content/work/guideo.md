@@ -141,24 +141,22 @@ workContent:
     sectionText: >-
       **Final Presentation**
 
-
       <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTvCa5MSh0fyD1tQCqV3YM9CzS3OdqIe2KsXeEfSmFtWMNt9OOAx4u-JJH7P-4TWyqlvBOnMfd0ArB-/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" id="slides"></iframe>
 
 
-
-      \*\*Project Deliverables\*\*
+      **Project Deliverables**
 
       All of the following deliverables can be found in the presentation above.
 
-      \* 4 User Interviews
+      * 4 User Interviews
 
-      \* Information Architecture
+      * Information Architecture
 
-      \* 2 Personas
+      * 2 Personas
 
-      \* 2 User Flows & Sets of Sketches
+      * 2 User Flows & Sets of Sketches
 
-      \* Wireframe
+      * Wireframe
 
       The differentiating factors of Guideo were three things:
 
@@ -166,11 +164,11 @@ workContent:
 
       2. Pricing information is readily available, and it notifies if a route is presto only.
 
-      3. It will notify and provide alternative \*\*walking \**routes when there is a delay.
+      3. It will notify and provide alternative **walking **routes when there is a delay.
 
       I came away from the course with a greater understand of how to produce a better user experience. I learned how to throw away my ego when being critiqued. How to stay silent and provide not provide answers during user testing. When and how to prod for knowledge the interviewee thought was common sense.
 
-      Industry professionals \[Gerard Dolan](https://www.linkedin.com/in/gerarddolan/) and \[David Aboutboul](https://www.linkedin.com/in/david-aboutboul/) taught our class invaluable life and career lessons. I hope to carry a design thinking approach to everything that I do henceforth.
+      Industry professionals [Gerard Dolan](https://www.linkedin.com/in/gerarddolan/) and [David Aboutboul](https://www.linkedin.com/in/david-aboutboul/) taught our class invaluable life and career lessons. I hope to carry a design thinking approach to everything that I do henceforth.
 ctaTitle: Let's Talk
 ctaText: Want to talk about UX? Great! Get in touch pronto.
 ctaBtn: Connect
