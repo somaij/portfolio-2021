@@ -1,0 +1,425 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Jost:wght@500;700&display=swap');
+/* ----------------------------------------------------------------------------
+ * Structure
+ * ------------------------------------------------------------------------- */
+
+/* global box-sizing */
+*,
+*:after,
+*:before {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+
+/* html element 62.5% font-size for REM use i.e. 1rem = 10px*/
+html {
+	height: 100%;
+    min-height: 100%;
+	background: #F7f7f7;
+	scroll-behavior: smooth;
+}
+
+body {
+	font: 400 16px/1.6 'Inter', sans-serif;
+	color: $light-gray;
+	margin: 0;
+	min-height: 100%;
+	display: flex;
+  flex-direction: column;
+  background:#F7f7f7;
+}
+main {
+	flex: 1 0 auto;
+  }
+  footer {
+	flex-shrink: 0;
+  }
+#not-found-page{
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	height:100%;
+	h1{
+		text-align:center;
+		font-size:7rem;
+		margin:0 0 2rem;
+		color:$blue;
+		line-height: 1;
+	}
+	.sub{
+		margin-bottom:1rem;
+	}
+	a{
+		color:$blue;
+	}
+}
+/* clear */
+.clear:before,
+.clear:after {
+	content: ' ';
+	display: table;
+}
+
+.clear:after {
+	clear: both;
+}
+
+.clear {
+	*zoom: 1;
+}
+
+img {
+	max-width: 100%;
+	vertical-align: bottom;
+	height: auto;
+}
+
+a {
+	color: #444;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #444;
+}
+
+a:focus {
+	outline: 0;
+}
+
+a:hover,
+a:active {
+	outline: 0;
+}
+
+input:focus {
+	outline: 0;
+}
+
+ol,
+ul {}
+
+select {
+	width: 100%;
+}
+
+h1,
+h2,
+h3 {
+	font-family:"Jost", sans-serif;
+	font-weight: 400;
+	color: $dark-gray;
+	font-size:3rem;
+}
+.text-center{
+	text-align: center;
+}
+@media screen and (max-width:575px){
+	html{
+		overflow-x:hidden;
+	}
+}
+nav{
+	position: absolute;
+	z-index: 20;
+	width: 100%;
+	color:#FFF;
+	padding:2rem 0;
+	a{
+		color:#FFF;
+		@extend .sub;
+	}
+	.menu a{
+		margin-left:4rem;
+		&:first-of-type{
+			margin-left:0;
+		}
+	}
+}
+footer{
+	background-color:$dark-gray;
+	color:rgba(#FFF,0.6);
+	@extend .sub;
+	padding:1rem;
+	text-align:center;
+}
+
+.sub {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 0.8rem;
+    font-weight: 900;
+	position: relative;
+	font-family:'Jost', sans-serif;
+    &.line{
+        display: flex;
+        align-items: center;
+        &:after{
+            content: '';
+            margin-left: 1rem;
+            height: 1px;
+            background-color: #000;
+            width:75px;
+    }
+    
+    }
+}
+
+.btn {
+	font-size: 0.8rem;
+	font-weight: 900;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	padding: 0.5rem 3rem;
+	border-radius: 50px;
+	transition: 250ms all ease;
+	border: 1px solid transparent;
+	font-family:'Jost', sans-serif;
+	&.solid {
+		background-color: $blue;
+		color: #FFF;
+		&.white {
+			background-color: #FFF;
+			color: $blue;
+	
+			&:hover {
+				background-color: transparent;
+				color: #FFF;
+				border-color: #FFF;
+			}
+		}
+	}
+
+	&.outline {
+		color: $blue;
+		border-color: $blue;
+
+		&:hover {
+			background-color: $blue;
+			color: #FFF;
+		}
+		&.white {
+			color: #FFF;
+			border-color: #FFF;
+	
+			&:hover {
+				background-color: #FFF;
+				color: $blue;
+				border-color: #FFF;
+			}
+		}
+	}
+
+	
+}
+
+.arrow-btn {
+	font-size: 0.8rem;
+	font-weight: 900;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	transition: 250ms all ease;
+
+	svg {
+		height: 24px;
+		width: 24px;
+		fill: #FFF;
+		transition: 250ms all ease;
+	}
+
+	&:hover {
+		svg {
+			transform: translateX(10px);
+		}
+	}
+
+	&.white {
+		color: #FFF;
+
+		&:hover {
+			color: #DDD;
+
+			svg {
+				fill: $blue;
+			}
+		}
+    }
+    &.blue {
+		color: $blue;
+        svg {
+            fill: $blue;
+        }
+		&:hover {
+			color: $light-gray;
+
+			svg {
+				fill: $light-gray;
+			}
+		}
+	}
+	&.reverse{
+		&:hover {
+			svg {
+				transform: translateX(-10px);
+			}
+		}
+	}
+}
+#post{
+	h1,h2{
+		font-size:3rem;
+	}
+	h3{
+		font-size:1.6rem;
+	}
+	p{
+		margin-bottom:1rem;	
+	}
+}
+.wp-block-separator{
+	margin:5rem 0;
+}
+@media screen and (max-width:575px){
+	body{
+		overflow-x: hidden;
+		height:auto;
+	}
+}
+.post-preview{
+	background-color:rgba(#000, 0.25);
+	backdrop-filter: blur(20px);
+	color:#FFF;
+	display:block;
+	border-radius:0;
+	overflow: hidden;
+	transition: 250ms all ease;
+	padding:0;
+	&:hover{
+		transform: translateY(-20px);
+		box-shadow:5px 10px 50px rgba(#000, 0.1);
+		.btn.outline.white{
+			@extend .btn.outline.white:hover;
+		}
+	}
+	.image > div{
+		height:200px !important;
+		width:100% !important;
+		img{
+			width:100%;
+			height:100%;
+			object-fit: cover;
+		}
+	}
+	.text{
+		height:300px;
+		display:flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: flex-start;
+		padding: 2rem;
+		color:#FFF;
+		h3{
+			height:100px;
+			display:flex;
+			align-items: center;
+			color:#FFF;
+		}
+	}
+	.btn{
+		margin-top:2rem;
+	}
+	h3{
+		font-size:1.8rem;
+		line-height: 1.2;
+		margin-bottom:1rem;
+	}
+	@media screen and (max-width:991px){
+			.text, .text h3{
+				height:auto;
+			}
+			.image{
+				height:150px;
+			}
+	}
+}
+.work-preview{
+	position: relative;
+	height:250px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	&.big{
+		height:390px;
+	}
+	.image{
+		height:100%;
+		width:100%;
+		position: absolute;
+		.gatsby-image-wrapper{
+			height:100% !important;
+			width:100% !important;
+		}
+		img{
+			width:100%;
+			height:100%;
+			object-fit: cover;
+		}
+	}
+	.text{
+		position: relative;
+		z-index: 2;
+		color:#FFF;
+		padding:2rem;
+		h3{
+			color:#FFF;
+			font-size:1.5rem;
+			line-height: 1.2;
+			margin-bottom:1rem;
+		}
+	}
+}
+.glance-link{
+	background-color:#FFF;
+	display: block;
+	height:450px;
+	width:100%;
+	.image > div{
+		height:200px !important;
+		width:100% !important;
+		img{
+			width:100%;
+			height:100%;
+			object-fit: cover;
+		}
+	}
+	.text{
+		padding:2rem;
+		h3{
+			font-size:2rem;
+			margin:0;
+		}
+	}
+}
+.regular-text{
+	h2,h3{
+		margin-bottom:1rem;
+	}
+	p{
+		margin-bottom:1rem;
+	}
+	ul,ol{
+		margin:1rem 0 1rem 1rem;
+		li{
+			margin:0 0 0.25rem 1rem;
+		}
+	}
+	a{
+		color:$blue;
+	}
+}

@@ -1,0 +1,67 @@
+backend:
+  name: github
+  repo: somaij/portfolio-2021
+  branch: main
+media_folder: static/assets
+public_folder: assets
+collections:
+  - name: blog
+    label: Blog
+    folder: content/blog
+    create: true
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
+      - { name: path, label: Path }
+      - { name: date, label: Date, widget: date }
+      - { name: title, label: Title }
+      - { name: description, label: Description }
+      - { name: image, label: Image, widget: image }
+      - { name: body, label: Body, widget: markdown }
+  - name: work
+    label: Work
+    folder: content/work
+    create: true
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "work-post"}
+      - { name: path, label: Path }
+      - { name: title, label: Title }
+      - { name: description, label: Description }
+      - { name: image, label: Image, widget: image }
+      - {label: Summary, name: summary, widget: 'markdown'}   
+      - label: "Summary Buttons"
+        name: "summary-buttons"
+        widget: "list"
+        fields: 
+          - {label: Button Link, name: btnlink, widget: string}
+          - {label: Button Text, name: btntext, widget: string}
+      - label: "At a Glance"
+        name: "glance"
+        widget: "list"
+        fields:
+          - {label: Image, name: image, widget: image}
+          - {label: Title, name: title, widget: string}
+          - {label: Description, name: description, widget: 'markdown'}
+          - {label: Button Link, name: btnlink, widget: string}
+          - {label: Button Text, name: btntext, widget: string}
+      - label: "Work Content"
+        name: "workContent"
+        widget: "list"
+        fields: 
+          - {label: Section Title, name: sectionTitle, widget: string}
+          - {label: Section Text, name: sectionText, widget: 'markdown'}    
+      - {label: CTA Title, name: ctaTitle, widget: string}
+      - {label: CTA Text, name: ctaText, widget: text}
+      - {label: CTA Button Text, name: ctaBtn, widget: text}
+  - name: page
+    label: Page
+    files:
+    - file: "content/pages/index.md"
+      label: "Home Page"
+      name: "index" 
+      fields:
+        - {label: "Template Key", name: "templateKey", widget: "hidden", default: "home"}
+        - {label: Title, name: title, widget: markdown}
+        - {label: Subtitle, name: subtitle, widget: markdown}
+        - {label: "Blog Background", name: blog-background, widget: image }
+        - {label: About, name: body, widget: markdown}
+        - {label: "About Image", name: about-image, widget: image }
