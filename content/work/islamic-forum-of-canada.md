@@ -30,13 +30,9 @@ workContent:
 
       #### Initial Wireframe
 
-      <div class="row">
 
-      <div class="col-12 col-lg-5 inline-image"><img src="/assets/home.png"/></div>
+      <img class="inline-image height-400" src="/assets/home.png"/>
 
-      <div class="col-12 col-lg-7">
-
-      <div>
 
       Afterwards the team and I created questions about the wireframe and also in general about the new website.
 
@@ -76,7 +72,6 @@ workContent:
 
       12. We have been told to capture a mature and intellectual ascetic. In your own words, describe what that means to you. What are some guiding tips that we can follow throughout the project to help us stay on track?
 
-      </div></div></div>
 
       This extensive list of questions was sent out to the 7 volunteers and were answered thoroughly. I was able to extract the main priorities of the mosque and it’s community.
 
