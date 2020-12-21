@@ -30,7 +30,6 @@ workContent:
 
       #### Initial Wireframe
 
-
       <div class="row">
 
       <div class="col-12 col-lg-5 inline-image"><img src="/assets/home.png"/></div>
@@ -74,8 +73,6 @@ workContent:
       11. We have been shown the 10 minute promotional video, and we were told that the website would want to capture a similar theme that was presented throughout. In your own words (and to help us understand) what exactly is that theme? What does the “Forum Family” mean to you, and how do we go about capturing that?
 
       12. We have been told to capture a mature and intellectual ascetic. In your own words, describe what that means to you. What are some guiding tips that we can follow throughout the project to help us stay on track?
-
-      </div></div>
 
 
       This extensive list of questions was sent out to the 7 volunteers and were answered thoroughly. I was able to extract the main priorities of the mosque and it’s community.
