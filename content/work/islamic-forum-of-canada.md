@@ -34,7 +34,7 @@ workContent:
 
       <div class="col-12 col-lg-5 inline-image"><img src="/assets/home.png"/></div>
 
-      <div class="col-12 col-lg-7>
+      <div class="col-12 col-lg-7">
 
       Afterwards the team and I created questions about the wireframe and also in general about the new website.
 
