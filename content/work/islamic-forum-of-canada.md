@@ -44,7 +44,7 @@ workContent:
 
       <div class="row">
 
-      <div class="col-6 inline-image">![Initial Home Design](assets/home.png)</div></div>
+      <div class="col-6 inline-image"><img src="assets/home.png"/></div></div>
 
 
       Afterwards I created questions about the wireframe and also in general about the new website.
