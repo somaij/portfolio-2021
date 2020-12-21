@@ -37,7 +37,6 @@ workContent:
 
       <div class="col-12 col-lg-7>
 
-
       Afterwards the team and I created questions about the wireframe and also in general about the new website.
 
 
