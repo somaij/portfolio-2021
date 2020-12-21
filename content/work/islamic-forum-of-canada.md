@@ -12,15 +12,13 @@ summary: >-
 
   1. Be great to look at, and extremely easy to use due to the wide demographic of users.
 
-  2. Automate or simplify as many tasks as possible to free up the managing team’s time. Things such as donations, creating events, special function requests (marriage for example)
+  2. Automate or simplify as many tasks as possible to free up the managing team’s time.
 
   3. Gather donations
 
   4. Let members quickly check the current daily prayer times.
 
   5. Sell members on their school programs
-
-  6. Present Islam in a non-daunting way to Canadian-Muslims and be an informational resource for the Mosque.
 summary-buttons:
   - btnlink: https://invis.io/J6U7ILKE7AB#/386902438_Home
     btntext: Invision Design
