@@ -31,15 +31,14 @@ workContent:
 
       #### Initial Wireframe
 
-      <section class="row">
 
-      <div>
+      <div class="col-left">
 
       <a href="#img1"><img class="inline-image height-400" src="/assets/home.png"/></a><a href="#" class="lightbox" id="img1"><span style="background-image: url('/assets/home.png')"></span></a>
 
       </div>
 
-      <div>
+      <div class="col-right">
 
       Afterwards the team and I created questions about the wireframe and also in general about the new website.
 
@@ -81,7 +80,6 @@ workContent:
 
       </div>
 
-      </section>
 
       This extensive list of questions was sent out to the 7 volunteers and were answered thoroughly. I was able to extract the main priorities of the mosque and it’s community.
 
