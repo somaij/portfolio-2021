@@ -103,25 +103,25 @@ workContent:
       ### Masthead
 
 
-      <a href="#img2" class="lightbox-link"><img class="inline-image height-400" src="/assets/ifc-masthead.png"/></a><a href="#" class="lightbox" id="img2"><span style="background-image: url('/assets/ifc-masthead.png')"></span></a>
+      <img class="inline-image height-400" src="/assets/ifc-masthead.png"/>
 
 
       ### School
 
 
-      <a href="#img3" class="lightbox-link"><img class="inline-image height-400" src="/assets/ifc-madrasah.png"/></a><a href="#" class="lightbox" id="img3"><span style="background-image: url('/assets/ifc-madrasah.png')"></span></a>
+      <img class="inline-image height-400" src="/assets/ifc-madrasah.png"/>
 
 
       ### Events
 
 
-      <a href="#img4" class="lightbox-link"><img class="inline-image height-400" src="/assets/ifc-events.png"/></a><a href="#" class="lightbox" id="img4"><span style="background-image: url('/assets/ifc-events.png')"></span></a>
+      <img class="inline-image height-400" src="/assets/ifc-events.png"/>
 
 
       ### CTA
 
 
-      <a href="#img5" class="lightbox-link"><img class="inline-image height-400" src="/assets/ifc-cta.png"/></a><a href="#" class="lightbox" id="img5"><span style="background-image: url('/assets/ifc-cta.png')"></span></a>
+      <img class="inline-image height-400" src="/assets/ifc-cta.png"/>
 ctaTitle: Questions? I may have answers!
 ctaText: If you'd like to find out more, please get in touch.
 ctaBtn: Let's Chat
