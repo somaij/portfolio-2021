@@ -103,25 +103,25 @@ workContent:
       ### Masthead
 
 
-      <img class="inline-image height-400" src="/assets/ifc-masthead.png"/>
+      <img class="centered-image height-400" src="/assets/ifc-masthead.png"/>
 
 
       ### School
 
 
-      <img class="inline-image height-400" src="/assets/ifc-madrasah.png"/>
+      <img class="centered-image height-400" src="/assets/ifc-madrasah.png"/>
 
 
       ### Events
 
 
-      <img class="inline-image height-400" src="/assets/ifc-events.png"/>
+      <img class="centered-image height-400" src="/assets/ifc-events.png"/>
 
 
       ### CTA
 
 
-      <img class="inline-image height-400" src="/assets/ifc-cta.png"/>
+      <img class="centered-image height-400" src="/assets/ifc-cta.png"/>
 ctaTitle: Questions? I may have answers!
 ctaText: If you'd like to find out more, please get in touch.
 ctaBtn: Let's Chat
