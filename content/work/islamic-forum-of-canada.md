@@ -31,8 +31,6 @@ workContent:
 
       #### Initial Wireframe
 
-      <html>
-
       <section class="row">
 
       <div class="col-12 col-lg-5">
