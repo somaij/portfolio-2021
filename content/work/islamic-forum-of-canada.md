@@ -73,8 +73,6 @@ workContent:
 
       12. We have been told to capture a mature and intellectual ascetic. In your own words, describe what that means to you. What are some guiding tips that we can follow throughout the project to help us stay on track?
 
-      </div>
-
 
       This extensive list of questions was sent out to the 7 volunteers and were answered thoroughly. I was able to extract the main priorities of the mosque and it’s community.
 
@@ -94,12 +92,36 @@ workContent:
     sectionText: >-
       From those findings, I felt confident with the overall layout. We went
       through a number of colour pallet decisions, and decided on this pale
-      brown <span style="color:#E0BE8E">(Calico)<span> colour due to a
+      brown <span style="color:#E0BE8E">(Calico)</span> colour due to a
       historical aspect of how this Mosque was started. To contrast, I felt a
       rich blue <span style="color:#123C69">(Chathams Blue)</span> worked well.
 
 
       The current version of the homepage shows most of what the mosque offers, without being overwhelming.
+
+
+      ### Masthead
+
+
+      <a href="#img2" class="lightbox-link"><img class="inline-image height-400" src="/assets/ifc-masthead.png"/></a><a href="#" class="lightbox" id="img2"><span style="background-image: url('/assets/ifc-masthead.png')"></span></a>
+
+
+      ### School
+
+
+      <a href="#img3" class="lightbox-link"><img class="inline-image height-400" src="/assets/ifc-madrasah.png"/></a><a href="#" class="lightbox" id="img3"><span style="background-image: url('/assets/ifc-madrasah.png')"></span></a>
+
+
+      ### Events
+
+
+      <a href="#img4" class="lightbox-link"><img class="inline-image height-400" src="/assets/ifc-events.png"/></a><a href="#" class="lightbox" id="img4"><span style="background-image: url('/assets/ifc-events.png')"></span></a>
+
+
+      ### CTA
+
+
+      <a href="#img5" class="lightbox-link"><img class="inline-image height-400" src="/assets/ifc-cta.png"/></a><a href="#" class="lightbox" id="img5"><span style="background-image: url('/assets/ifc-cta.png')"></span></a>
 ctaTitle: Questions? I may have answers!
 ctaText: If you'd like to find out more, please get in touch.
 ctaBtn: Let's Chat
