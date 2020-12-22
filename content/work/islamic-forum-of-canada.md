@@ -31,6 +31,8 @@ workContent:
 
       #### Initial Wireframe
 
+      <parsedHTML>
+
       <div class="row">
 
       <div class="col-12 col-lg-5">
@@ -83,6 +85,7 @@ workContent:
 
       </div>
 
+      </parsedHTML>
 
       This extensive list of questions was sent out to the 7 volunteers and were answered thoroughly. I was able to extract the main priorities of the mosque and it’s community.
 
