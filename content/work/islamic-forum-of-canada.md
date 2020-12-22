@@ -32,7 +32,7 @@ workContent:
       #### Initial Wireframe
 
 
-      <a href="#img1"><img class="inline-image height-400" src="/assets/home.png"/></a><a href="#" class="lightbox" id="img1"><span style="background-image: url('/assets/home.png')"></span></a>
+      <a href="#img1" class="lightbox-link"><img class="inline-image height-400" src="/assets/home.png"/></a><a href="#" class="lightbox" id="img1"><span style="background-image: url('/assets/home.png')"></span></a>
 
 
       Afterwards the team and I created questions about the wireframe and also in general about the new website.
