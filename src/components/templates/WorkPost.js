@@ -2,69 +2,69 @@ import React from "react"
 import { graphql } from "gatsby"
 import Img from "gatsby-image"
 import ReactMarkdown from 'react-markdown'
+import { MDXRenderer } from "gatsby-plugin-mdx"
+
+const convertToKebabCase = (string) => {
+  return string.replace(/\s+/g, '-').toLowerCase();
+}
 
 const WorkPost = ({ data }) => {
   console.log("data,", data)
   return (
     <div>
       <div id="work-header">
-        <div class="container">
-          <div class="row">
-            <div class="text col-12 col-lg-6 col-xl-5 d-flex align-items-center justify-content-center">
-            <div class="content">
-            <div class="sub">{data.markdownRemark.frontmatter.description}</div>
-            <h1>{data.markdownRemark.frontmatter.title}</h1>
-            <p class="regular-text"><ReactMarkdown>{data.markdownRemark.frontmatter.summary}</ReactMarkdown></p>
-            {data.markdownRemark.frontmatter.summary_buttons.map((button, i) => [
-            <a id={"btn-" + i} href={button.btnlink}>{button.btntext}
-          {i < data.markdownRemark.frontmatter.summary_buttons.length - 1 ? ', ' : ''}
+        <div className="container">
+          <div className="row">
+            <div className="text col-12 col-lg-6 col-xl-5 d-flex align-items-center justify-content-center">
+            <div className="content">
+            <div className="sub">{data.allMdx.frontmatter.description}</div>
+            <h1>{data.allMdx.frontmatter.title}</h1>
+            <div className="regular-text"><MDXRenderer>{data.allMdx.frontmatter.summary}</MDXRenderer></div>
+            {data.allMdx.frontmatter.summary_buttons.map((button, i) => [
+            <a key={i} id={"btn-" + i} href={convertToKebabCase(button.btnlink)}>{button.btntext}
           </a>
           ])}
             </div>
           </div>
         </div>
         </div>
-        <div class="image"><Img
-  fixed={data.markdownRemark.frontmatter.image.childImageSharp.fixed}
+        <div className="image"><Img
+  fixed={data.allMdx.frontmatter.image.childImageSharp.fixed}
 /></div>
 
       </div>
       <div id="work-main">
-      <div class="container">
-        <div class="row text-center">
-          <div class="col-12"><h2>At a Glance</h2></div>
+      <div className="container">
+        <div className="row text-center">
+          <div className="col-12"><h2>At a Glance</h2></div>
         </div>
-        <div class="row glance">
-        {data.markdownRemark.frontmatter.glance.map((glance, i) => [
-          <div class="col-12 col-md-4">
-          <a class="glance-link" key={i} href={"#" + glance.btnlink}>
-          <div class="image"><Img
+        <div className="row glance">
+        {data.allMdx.frontmatter.glance.map((glance, i) => [
+          <div className="col-12 col-md-4" key={i}>
+          <a className="glance-link" href={"#" + glance.btnlink}>
+          <div className="image"><Img
   fixed={glance.image.childImageSharp.fixed}
 /></div>
-          <div class="text">
+          <div className="text">
           <h3>{glance.title}</h3>
           <p>{glance.description}</p>
-          <span class="arrow-btn">{glance.btntext}</span>
+          <span className="arrow-btn">{glance.btntext}</span>
           </div>
-          {i < data.markdownRemark.frontmatter.glance.length - 1 ? ', ' : ''}
           </a>
           </div>
           ])}
         </div>
-          <div class="row">
-            <div class="col-12 col-md-3 col-lg-2 sidebar">
-            {data.markdownRemark.frontmatter.workContent.map((section, i) => [
-            <a key={i} href={"#" + section.sectionTitle}>{section.sectionTitle}
-          {i < data.markdownRemark.frontmatter.workContent.length - 1 ? ', ' : ''}
-          </a>
+          <div className="row">
+            <div className="col-12 col-md-3 col-lg-2 sidebar">
+            {data.allMdx.frontmatter.workContent.map((section, i) => [
+            <a key={i} href={"#" + convertToKebabCase(section.sectionTitle)}>{section.sectionTitle}</a>
           ])}
             </div>
-            <div class="col-12 col-md-9 col-lg-10 work-body">
-          {data.markdownRemark.frontmatter.workContent.map((section, i) => [
-            <div class="work-section" key={i} id={section.sectionTitle}>
+            <div className="col-12 col-md-9 col-lg-10 work-body">
+          {data.allMdx.frontmatter.workContent.map((section, i) => [
+            <div className="work-section" key={i} id={convertToKebabCase(section.sectionTitle)}>
           <h2>{section.sectionTitle}</h2>
-          <div class="regular-text"><ReactMarkdown>{section.sectionText}</ReactMarkdown></div>
-          {i < data.markdownRemark.frontmatter.workContent.length - 1 ? ', ' : ''}
+          <div className="regular-text"><MDXRenderer>{section.sectionText}</MDXRenderer></div>
           </div>
           ])}
           </div>
@@ -79,7 +79,7 @@ export default WorkPost
 
 export const WorkPostTemplateQuery = graphql`
   query WorkPostTemplateQuery($slug: String) {
-    markdownRemark(fields: { slug: { eq: $slug } }) {
+    allMdx(fields: { slug: { eq: $slug } }) {
       fields {
         slug
       }
@@ -96,7 +96,7 @@ export const WorkPostTemplateQuery = graphql`
           description
           image {
             childImageSharp {
-              fixed(width: 300) {
+              fixed(width: 400) {
                 ...GatsbyImageSharpFixed
               }
             }

@@ -3,11 +3,12 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql, StaticQuery } from 'gatsby'
 import Img from "gatsby-image"
+import { MDXRenderer } from "gatsby-plugin-mdx"
 
 class BlogRoll extends React.Component {
   render() {
     const { data } = this.props
-    const { edges: posts } = data.allMarkdownRemark
+    const { edges: posts } = data.allMdx
 
     return (
       <div className="col-6 col-lg-4">
@@ -39,7 +40,7 @@ class BlogRoll extends React.Component {
 
 BlogRoll.propTypes = {
   data: PropTypes.shape({
-    allMarkdownRemark: PropTypes.shape({
+    allMdx: PropTypes.shape({
       edges: PropTypes.array,
     }),
   }),
@@ -49,7 +50,7 @@ export default () => (
   <StaticQuery
     query={graphql`
       query BlogRollQuery {
-        allMarkdownRemark(
+        allMdx(
           sort: { order: DESC, fields: [frontmatter___date] }
           filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
         ) {

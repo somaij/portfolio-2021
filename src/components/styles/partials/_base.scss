@@ -313,9 +313,13 @@ background-image: url("data:image/svg+xml,%3Csvg width='7.5' height='7.5' viewBo
 	.row{
 		background-color:$dark-gray;
 	}
-	.content{
-	
+	.regular-text{
+		margin-bottom:2rem;
 		
+	}
+	a#btn-0{
+		@extend .btn;
+		@extend .btn.solid;
 	}
 	.col-12{
 		padding-right:2.5rem;
@@ -352,6 +356,21 @@ background-image: url("data:image/svg+xml,%3Csvg width='7.5' height='7.5' viewBo
 		background-color:#FFF;
 		border-left:1px solid $blue;
 		padding:5rem;
+	}
+	.sidebar{
+		padding-right:1rem;
+		a{
+			width:100%;
+			display: block;
+			@extend .sub;
+			margin-bottom:1rem;
+		}
+	}
+	.work-section{
+		margin-top:5rem;
+		&:first-of-type{
+			margin-top:0;
+		}
 	}
 }
 
