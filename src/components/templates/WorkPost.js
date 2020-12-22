@@ -2,7 +2,6 @@ import React from "react"
 import { graphql } from "gatsby"
 import Img from "gatsby-image"
 import ReactMarkdown from 'react-markdown'
-import { MDXRenderer } from "gatsby-plugin-mdx"
 
 const convertToKebabCase = (string) => {
   return string.replace(/\s+/g, '-').toLowerCase();
@@ -17,10 +16,10 @@ const WorkPost = ({ data }) => {
           <div className="row">
             <div className="text col-12 col-lg-6 col-xl-5 d-flex align-items-center justify-content-center">
             <div className="content">
-            <div className="sub">{data.allMdx.frontmatter.description}</div>
-            <h1>{data.allMdx.frontmatter.title}</h1>
-            <div className="regular-text"><MDXRenderer>{data.allMdx.frontmatter.summary}</MDXRenderer></div>
-            {data.allMdx.frontmatter.summary_buttons.map((button, i) => [
+            <div className="sub">{data.markdownRemark.frontmatter.description}</div>
+            <h1>{data.markdownRemark.frontmatter.title}</h1>
+            <div className="regular-text"><ReactMarkdown>{data.markdownRemark.frontmatter.summary}</ReactMarkdown></div>
+            {data.markdownRemark.frontmatter.summary_buttons.map((button, i) => [
             <a key={i} id={"btn-" + i} href={convertToKebabCase(button.btnlink)}>{button.btntext}
           </a>
           ])}
@@ -29,7 +28,7 @@ const WorkPost = ({ data }) => {
         </div>
         </div>
         <div className="image"><Img
-  fixed={data.allMdx.frontmatter.image.childImageSharp.fixed}
+  fixed={data.markdownRemark.frontmatter.image.childImageSharp.fixed}
 /></div>
 
       </div>
@@ -39,7 +38,7 @@ const WorkPost = ({ data }) => {
           <div className="col-12"><h2>At a Glance</h2></div>
         </div>
         <div className="row glance">
-        {data.allMdx.frontmatter.glance.map((glance, i) => [
+        {data.markdownRemark.frontmatter.glance.map((glance, i) => [
           <div className="col-12 col-md-4" key={i}>
           <a className="glance-link" href={"#" + glance.btnlink}>
           <div className="image"><Img
@@ -56,15 +55,15 @@ const WorkPost = ({ data }) => {
         </div>
           <div className="row">
             <div className="col-12 col-md-3 col-lg-2 sidebar">
-            {data.allMdx.frontmatter.workContent.map((section, i) => [
+            {data.markdownRemark.frontmatter.workContent.map((section, i) => [
             <a key={i} href={"#" + convertToKebabCase(section.sectionTitle)}>{section.sectionTitle}</a>
           ])}
             </div>
             <div className="col-12 col-md-9 col-lg-10 work-body">
-          {data.allMdx.frontmatter.workContent.map((section, i) => [
+          {data.markdownRemark.frontmatter.workContent.map((section, i) => [
             <div className="work-section" key={i} id={convertToKebabCase(section.sectionTitle)}>
           <h2>{section.sectionTitle}</h2>
-          <div className="regular-text"><MDXRenderer>{section.sectionText}</MDXRenderer></div>
+          <div className="regular-text"><ReactMarkdown allowDangerousHtml >{section.sectionText}</ReactMarkdown></div>
           </div>
           ])}
           </div>
@@ -79,7 +78,7 @@ export default WorkPost
 
 export const WorkPostTemplateQuery = graphql`
   query WorkPostTemplateQuery($slug: String) {
-    allMdx(fields: { slug: { eq: $slug } }) {
+    markdownRemark(fields: { slug: { eq: $slug } }) {
       fields {
         slug
       }

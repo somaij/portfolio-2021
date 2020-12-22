@@ -3,12 +3,11 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql, StaticQuery } from 'gatsby'
 import Img from "gatsby-image"
-import { MDXRenderer } from "gatsby-plugin-mdx"
 
 class WorkRoll extends React.Component {
   render() {
     const { data } = this.props
-    const { edges: posts } = data.allMdx
+    const { edges: posts } = data.allMarkdownRemark
 
     return (
       <div className="row justify-content-center">
@@ -43,7 +42,7 @@ class WorkRoll extends React.Component {
 
 WorkRoll.propTypes = {
   data: PropTypes.shape({
-    allMdx: PropTypes.shape({
+    allMarkdownRemark: PropTypes.shape({
       edges: PropTypes.array,
     }),
   }),
@@ -53,7 +52,7 @@ export default () => (
   <StaticQuery
     query={graphql`
       query WorkRollQuery {
-        allMdx(
+        allMarkdownRemark(
           sort: { order: DESC, fields: [frontmatter___date] }
           filter: { frontmatter: { templateKey: { eq: "work-post" } } }
         ) {

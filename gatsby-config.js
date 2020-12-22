@@ -44,10 +44,9 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-mdx`,
+      resolve: `gatsby-transformer-remark`,
       options: {
-        extensions: ['.mdx'],
-        gatsbyRemarkPlugins: [
+        plugins: [
           {
             resolve: `gatsby-plugin-netlify-cms-paths`,
             options: {

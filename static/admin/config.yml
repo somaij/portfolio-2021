@@ -9,7 +9,6 @@ collections:
     label: Blog
     folder: content/blog
     create: true
-    extension: mdx
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
       - { name: path, label: Path }
@@ -22,7 +21,6 @@ collections:
     label: Work
     folder: content/work
     create: true
-    extension: mdx
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "work-post"}
       - { name: path, label: Path }
@@ -43,7 +41,7 @@ collections:
           - {label: Image, name: image, widget: image}
           - {label: Title, name: title, widget: string}
           - {label: Description, name: description, widget: 'markdown'}
-          - {label: Button Link, name: btnlink, widget: string}
+          - {label: Button Link, name: anchor, widget: string}
           - {label: Button Text, name: btntext, widget: string}
       - label: "Work Content"
         name: "workContent"
@@ -56,9 +54,8 @@ collections:
       - {label: CTA Button Text, name: ctaBtn, widget: text}
   - name: page
     label: Page
-    extension: mdx
     files:
-    - file: "content/pages/index.mdx"
+    - file: "content/pages/index.md"
       label: "Home Page"
       name: "index" 
       fields:
