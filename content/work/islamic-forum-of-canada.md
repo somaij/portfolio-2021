@@ -19,7 +19,7 @@ glance:
       services are. "
     btntext: Skip to Home Design
     btnlink: homepage
-    anchor: home
+    anchor: homepage
 workContent:
   - sectionTitle: Research
     sectionText: >-
@@ -90,6 +90,16 @@ workContent:
       5. Sell members on their school programs
 
       6. Present Islam in a non-daunting way to Canadian-Muslims and be an informational resource for the Mosque.
+  - sectionTitle: Homepage
+    sectionText: >-
+      From those findings, I felt confident with the overall layout. We went
+      through a number of colour pallet decisions, and decided on this pale
+      brown <span style="color:#E0BE8E">(Calico)<span> colour due to a
+      historical aspect of how this Mosque was started. To contrast, I felt a
+      rich blue <span style="color:#123C69">(Chathams Blue)</span> worked well.
+
+
+      The current version of the homepage shows most of what the mosque offers, without being overwhelming.
 ctaTitle: Questions? I may have answers!
 ctaText: If you'd like to find out more, please get in touch.
 ctaBtn: Let's Chat
