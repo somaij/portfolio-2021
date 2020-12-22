@@ -33,7 +33,7 @@ workContent:
 
       <html>
 
-      <div class="row">
+      <section class="row">
 
       <div class="col-12 col-lg-5">
 
@@ -83,9 +83,7 @@ workContent:
 
       </div>
 
-      </div>
-
-      </html>
+      </section>
 
       This extensive list of questions was sent out to the 7 volunteers and were answered thoroughly. I was able to extract the main priorities of the mosque and it’s community.
 
