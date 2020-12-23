@@ -106,6 +106,12 @@ workContent:
       <img class="centered-image height-400" src="/assets/ifc-masthead.png"/>
 
 
+      In a short amount of time, you're able to figure out who the website is for, what it is about, and the main objectives.
+
+
+      The masthead always displays the current prayer times. This is achieved by using Advanced Custom Fields, and filling in a large repeater. 
+
+
       ### School
 
 
