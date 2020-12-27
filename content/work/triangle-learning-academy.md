@@ -11,6 +11,17 @@ summary: "The Triangle Learning Academy is an internal facing learning platform
 summary-buttons:
   - btnlink: View Wireframes
     btntext: "#"
+glance:
+  - image: assets/blog-background.jpg
+    title: TLA Reads
+    description: The TLA Reads page showcases our picks of e-books and audiobooks
+      for the month. This program is pretty popular with our users.
+    anchor: tla-reads
+    btntext: Skip to TLA Reads
+workContent:
+  - sectionTitle: TLA Reads
+    sectionText: "This was the first page I redesigned for TLA. It features a popup
+      when you click on a book's cover.  "
 ctaTitle: Want to learn more?
 ctaText: Send me an email, pronto.
 ctaBtn: Email Me!
