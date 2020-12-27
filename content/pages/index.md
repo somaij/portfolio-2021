@@ -1,7 +1,6 @@
 ---
 templateKey: home
-title: Ease of use may be <span class="opacity">invisible</span>, but its
-  absence sure isn't.
+title: A consistent experience is a better experience.
 subtitle: UX/UI Designer & Front-end Developer
 blog-background: assets/blog-background.jpg
 about-image: assets/blog-bg.jpg
