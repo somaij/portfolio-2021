@@ -5,15 +5,15 @@ import React from "react"
 const Header = ({ siteTitle }) => (
   <nav>
     <div class="container">
-      <div class="row">
-        <div class="col-2">
+      <div class="row align-items-center">
+        <div class="col-5">
         <Link
           to="/"
         >
           Jason Somai
         </Link>
         </div>
-        <div class="col-10 menu text-right d-flex justify-content-end">
+        <div class="col-7 menu text-right d-flex justify-content-end">
         <Link
           to="/blog"
         >

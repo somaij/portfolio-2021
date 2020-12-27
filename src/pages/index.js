@@ -7,6 +7,7 @@ import SEO from "../components/seo"
 import BlogRoll from '../components/BlogRoll'
 import WorkRoll from '../components/WorkRoll'
 import Header from '../components/header'
+import SplitText from '../components/splitText'
 import ReactAnime from 'react-animejs'
 
 const {Anime, stagger} = ReactAnime
@@ -166,19 +167,22 @@ const IndexPage = ({ data }) => {
       
         <div class="container content">
           <div class="row justify-content-center align-items-center">
-          <div class="col-8 col-lg-7 text-center">
+          <div class="col-10 col-md-8 col-lg-6 text-center">
         <div class="sub">{data.markdownRemark.frontmatter.subtitle}</div>
         <Anime
         initial={[
           {
-            targets: "h1",
-            opacity: 1,
-            easing: "linear",
-            duration: 800
+            targets: "h1 span",
+            translateX: [40,0],
+    translateZ: 0,
+    opacity: [0,1],
+    easing: "easeOutExpo",
+    duration: 1200,
+    delay: (el, i) => 300 + 30 * i
           }
         ]}
         >
-        <h1 dangerouslySetInnerHTML={{ __html: data.markdownRemark.frontmatter.title}}></h1>
+        <h1><SplitText copy={data.markdownRemark.frontmatter.title} role="heading" /></h1>
         </Anime>
         </div>
           </div>
@@ -229,17 +233,26 @@ const IndexPage = ({ data }) => {
       initial={[
         {
           targets: "#blob-svg path",
-					duration: 5000,
-          easing: "easeInOutSine(0.5, 1)",
-					loop: true,
-          d: "M457.5,294Q449,338,410.5,362Q372,386,346,425.5Q320,465,272,481Q224,497,178.5,474.5Q133,452,104,414.5Q75,377,80.5,331Q86,285,51.5,242.5Q17,200,68.5,178Q120,156,127,102Q134,48,181,44.5Q228,41,274.5,35.5Q321,30,364.5,52.5Q408,75,412.5,125Q417,175,441.5,212.5Q466,250,457.5,294Z",
+					duration: 12000,
+          easing: "easeInOutSine(0.25, 1)",
+          loop: true,
           direction: 'alternate',
-          
+          keyframes:[
+            {
+              d: "M469,297.5Q480,345,411,343.5Q342,342,328,373.5Q314,405,282,400.5Q250,396,229,374Q208,352,145,385Q82,418,85,367.5Q88,317,100.5,283.5Q113,250,86,210.5Q59,171,95,151Q131,131,152,97.5Q173,64,211.5,52.5Q250,41,292.5,42.5Q335,44,347,92.5Q359,141,364.5,170.5Q370,200,414,225Q458,250,469,297.5Z"
+            },
+            {
+              d: "M380,275.5Q373,301,378.5,342.5Q384,384,352.5,403Q321,422,285.5,439Q250,456,204.5,463Q159,470,163,401.5Q167,333,153,314.5Q139,296,90,273Q41,250,90,227Q139,204,126.5,159Q114,114,138.5,76.5Q163,39,206.5,20Q250,1,275,65.5Q300,130,329,136Q358,142,370,168.5Q382,195,384.5,222.5Q387,250,380,275.5Z"
+            },
+            {
+              d: "M475,295Q467,340,434,370.5Q401,401,369.5,432Q338,463,294,441Q250,419,212,426.5Q174,434,169.5,384.5Q165,335,143,319.5Q121,304,76.5,277Q32,250,77,223.5Q122,197,148,185.5Q174,174,189.5,157.5Q205,141,227.5,118.5Q250,96,294.5,66Q339,36,351.5,86Q364,136,360,171Q356,206,419.5,228Q483,250,475,295Z"
+            }
+          ]
         }
       ]}
       >
             <svg width="1438" height="990" id="blob-svg" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M440.5,296Q456,342,429.5,381Q403,420,362.5,445Q322,470,277.5,441.5Q233,413,202,399.5Q171,386,149,363Q127,340,89.5,316Q52,292,61.5,252Q71,212,95.5,183.5Q120,155,131.5,109.5Q143,64,186,58.5Q229,53,277,36.5Q325,20,356.5,58.5Q388,97,425.5,126Q463,155,444,202.5Q425,250,440.5,296Z" fill="#5E7CE2" fill-opacity="0.1"/>
+<path d="M451.5,291.5Q450,333,417,358.5Q384,384,359.5,419Q335,454,292.5,412Q250,370,213.5,398Q177,426,147.5,404Q118,382,136.5,335.5Q155,289,97.5,269.5Q40,250,69,218.5Q98,187,113,157.5Q128,128,153.5,104Q179,80,214.5,99.5Q250,119,295,76Q340,33,383,53.5Q426,74,398,137Q370,200,411.5,225Q453,250,451.5,291.5Z" fill="#5E7CE2" fill-opacity="0.1"/>
 </svg>
 </Anime>
             </div>
@@ -257,10 +270,41 @@ const IndexPage = ({ data }) => {
           <div class="underlay"></div>
         </div>
         </div>
-      <div id="home-blog" style={{
-        backgroundImage: `url(${data.markdownRemark.frontmatter.blog_background.publicURL})`
-      }}>
-
+      <div id="home-blog">
+      <div class="blog-blob">
+            <Anime
+      initial={[
+        {
+          targets: ".blog-svg path",
+					duration: 12000,
+          easing: "easeInOutSine(0.25, 1)",
+					loop: true,
+          
+          direction: 'alternate',
+          keyframes: [
+            {
+              d: "M421,292Q395,334,374,381.5Q353,429,301.5,454.5Q250,480,216,424Q182,368,123.5,362.5Q65,357,62.5,303.5Q60,250,60.5,195.5Q61,141,99,97.5Q137,54,193.5,76Q250,98,289,106.5Q328,115,396.5,120.5Q465,126,456,188Q447,250,421,292Z"
+            },
+            {
+              d: "M394,296.5Q411,343,365,356Q319,369,284.5,416Q250,463,195,451.5Q140,440,120.5,388Q101,336,112.5,293Q124,250,84,190.5Q44,131,96.5,103Q149,75,199.5,38.5Q250,2,303.5,33.5Q357,65,382.5,112Q408,159,392.5,204.5Q377,250,394,296.5Z"
+            },
+            {
+              d: "M426,306Q443,362,394.5,389.5Q346,417,298,447Q250,477,196,456.5Q142,436,101.5,397.5Q61,359,36.5,304.5Q12,250,65,212Q118,174,126.5,112.5Q135,51,192.5,77Q250,103,295,98.5Q340,94,395.5,114Q451,134,430,192Q409,250,426,306Z"
+            }
+          ]
+          
+        }
+      ]}
+      ><svg class="blog-svg" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M448.5,301Q426,352,375,365.5Q324,379,287,419.5Q250,460,201.5,439Q153,418,119,381.5Q85,345,43,297.5Q1,250,20.5,189.5Q40,129,94.5,102.5Q149,76,199.5,99Q250,122,309,84Q368,46,392,100Q416,154,443.5,202Q471,250,448.5,301Z" stroke="#5E7CE2" fill-opacity="1"/>
+</svg>
+<svg class="blog-svg" viewBox="0 0 750 750" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M448.5,301Q426,352,375,365.5Q324,379,287,419.5Q250,460,201.5,439Q153,418,119,381.5Q85,345,43,297.5Q1,250,20.5,189.5Q40,129,94.5,102.5Q149,76,199.5,99Q250,122,309,84Q368,46,392,100Q416,154,443.5,202Q471,250,448.5,301Z" stroke="#533EF1" fill-opacity="1"/>
+</svg>
+<svg class="blog-svg" viewBox="0 0 1000 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M448.5,301Q426,352,375,365.5Q324,379,287,419.5Q250,460,201.5,439Q153,418,119,381.5Q85,345,43,297.5Q1,250,20.5,189.5Q40,129,94.5,102.5Q149,76,199.5,99Q250,122,309,84Q368,46,392,100Q416,154,443.5,202Q471,250,448.5,301Z" stroke="#4800ff" fill-opacity="1"/>
+</svg></Anime>
+            </div>
       <div class="container">
         <div class="row">
           <div class="col-12 text-center">

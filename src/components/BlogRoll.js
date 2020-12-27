@@ -10,9 +10,11 @@ class BlogRoll extends React.Component {
     const { edges: posts } = data.allMarkdownRemark
 
     return (
-      <div className="col-6 col-lg-4">
+      <div class="row justify-content-center">
+      
         {posts &&
           posts.map(({ node: post }) => (
+            <div className="col-12 col-lg-4">
               <Link to={"/blog" + post.fields.slug} className="post-preview">
                   {post.frontmatter.image ? (
                     <div className="image">
@@ -31,7 +33,9 @@ class BlogRoll extends React.Component {
                 <span className="btn outline white">Read</span>
                 </div>
                 </Link>
+                </div>
           ))}
+      
       </div>
     )
   }
