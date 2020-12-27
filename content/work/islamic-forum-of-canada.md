@@ -106,10 +106,10 @@ workContent:
       <img class="centered-image height-400" src="/assets/ifc-masthead.png"/>
 
 
-      In a short amount of time, you're able to figure out who the website is for, what it is about, and the main objectives.
+      In a short amount of time, the visitor is able to figure out who the website is for, what it is about, and it's main objectives.
 
 
-      The masthead always displays the current prayer times. This is achieved by using Advanced Custom Fields, and filling in a large repeater. 
+      The masthead always displays the current prayer times. This is achieved by using Advanced Custom Fields, and filling in a large repeater. The logic to detect what prayer period should be displayed is by checking when the "start" date is, and comparing that to the current date. 
 
 
       ### School
@@ -118,16 +118,25 @@ workContent:
       <img class="centered-image height-400" src="/assets/ifc-madrasah.png"/>
 
 
+      The school, or *Madrasah,* is one of the main avenues that the mosque collects donations. It is an after school and weekend program that children participate in and learn more about their faith, as well as some fun mixed in. As it is one of the larger contributors to their bottom line, I chose to make this portion of the page a testimonial call to action section.
+
+
       ### Events
 
 
       <img class="centered-image height-400" src="/assets/ifc-events.png"/>
 
 
+      Using *The Events Calendar* plugin, visitors will be able to check out the latest events that go on. During the pandemic, the mosque has resorted to using livestreams as a way to reach their followers. 
+
+
       ### CTA
 
 
       <img class="centered-image height-400" src="/assets/ifc-cta.png"/>
+
+
+      This final CTA is sitewide where it makes sense.
 ctaTitle: Questions? I may have answers!
 ctaText: If you'd like to find out more, please get in touch.
 ctaBtn: Let's Chat
