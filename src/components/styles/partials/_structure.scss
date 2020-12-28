@@ -369,7 +369,7 @@ footer {
 	overflow: hidden;
 	transition: 250ms all ease;
 	padding: 0;
-
+	margin-bottom:1rem;
 	&:hover {
 		transform: translateY(-20px);
 		box-shadow: 5px 10px 50px rgba(#000, 0.1);
@@ -420,7 +420,7 @@ footer {
 	}
 
 	@media screen and (max-width:991px) {
-
+		
 		.text,
 		.text h3 {
 			height: auto;
@@ -428,6 +428,7 @@ footer {
 
 		.image {
 			height: 150px;
+			overflow: hidden;
 		}
 	}
 }
