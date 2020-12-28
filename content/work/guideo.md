@@ -1,5 +1,6 @@
 ---
 templateKey: work-post
+order: "3"
 path: guideo
 title: Guideo
 description: UX/UI Design
@@ -24,18 +25,21 @@ glance:
       prototype with. My classmates tested my user flows with these.
     btnlink: user-flows-&-sketches
     btntext: Skip to Sketches
+    anchor: "#user-flows-&-sketches"
   - image: assets/wireframe.png
     title: Final Prototype
     description: The final low fidelity wireframe was made in Moqups. It’s fully
       interactive with hotspots to click on and navigate through the prototype.
     btnlink: wireframe
     btntext: Skip to Wireframe
+    anchor: "#wireframe"
   - title: Presentation
     description: "The final presentation was the culmination of everything we had
       done during the 5 week bootcamp. "
     btnlink: presentation
     btntext: Skip to Presentation
     image: assets/final-pres.png
+    anchor: "#presentation"
 workContent:
   - sectionTitle: Research
     sectionText: >-
@@ -171,6 +175,17 @@ workContent:
 
       Industry professionals [Gerard Dolan](https://www.linkedin.com/in/gerarddolan/) and [David Aboutboul](https://www.linkedin.com/in/david-aboutboul/) taught our class invaluable life and career lessons. I hope to carry a design thinking approach to everything that I do henceforth.
 ctaTitle: Let's Talk
-ctaText: Want to talk about UX? Great! Get in touch pronto.
 ctaBtn: Connect
+cta:
+  ctaBtn: Contact Me!
+  ctaTitle: Let's Talk
+  ctaText: You've really made it all the way down here? Thanks for reading! If you
+    have any questions about my Brainstation experience, or want to learn more
+    about any steps in the process, let me know.
+seo:
+  seoTitle: Guideo - A Brainstation Project | Jason Somai
+  seoDescription: A UX research and prototype project that I did for my 5 week
+    User Experience Design course at Brainstation in 2018. It combines walking
+    and public transportation to get you to your destination on time.
+ctaText: Want to talk about UX? Great! Get in touch pronto.
 ---
