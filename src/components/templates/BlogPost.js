@@ -99,11 +99,21 @@ export const BlogPostTemplateQuery = graphql`
         description
         date(formatString: "MMMM DD, YYYY")
         image {
+          publicURL
           childImageSharp {
             fixed(width: 1920) {
               ...GatsbyImageSharpFixed
             }
           }
+        }
+        seo{
+          seoTitle
+          seoDescription
+        }
+        cta{
+          ctaTitle
+          ctaText
+          ctaBtn
         }
       }
     }

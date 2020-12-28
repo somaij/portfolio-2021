@@ -4,6 +4,7 @@ import Img from "gatsby-image"
 import ReactMarkdown from 'react-markdown'
 import Header from '../header.js'
 import ReactAnime from 'react-animejs'
+import { Helmet } from "react-helmet";
 const ReactMarkdownWithHtml = require('react-markdown/with-html')
 
 const {Anime, stagger} = ReactAnime
@@ -21,6 +22,11 @@ const WorkPost = ({ data }) => {
   console.log("data,", data)
   return (
     <div>
+    <Helmet>
+    <title>{data.markdownRemark.frontmatter.seo.seoTitle}</title>
+    <meta name="description" content={data.markdownRemark.frontmatter.seo.seoDescription} />
+    <meta name="og:image" content={data.markdownRemark.frontmatter.image.publicURL} />
+  </Helmet>
       <Header/>
       <div id="work-header">
       <div class="blob">
@@ -150,7 +156,17 @@ export const WorkPostTemplateQuery = graphql`
           sectionText
           sectionTitle
         }
+        seo{
+          seoTitle
+          seoDescription
+        }
+        cta{
+          ctaTitle
+          ctaText
+          ctaBtn
+        }
         image {
+          publicURL
           childImageSharp {
             fixed(width: 960) {
               ...GatsbyImageSharpFixed

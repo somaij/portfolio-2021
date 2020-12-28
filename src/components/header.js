@@ -20,7 +20,7 @@ const Header = ({ siteTitle }) => (
           Blog
         </Link>
         <Link
-          to="/work"
+          to="/#work"
         >
           Work
         </Link>
@@ -35,7 +35,7 @@ Header.propTypes = {
 }
 
 Header.defaultProps = {
-  siteTitle: ``,
+  siteTitle: `Jason Somai`,
 }
 
 export default Header

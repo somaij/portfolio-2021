@@ -53,7 +53,7 @@ export default () => (
     query={graphql`
       query WorkRollQuery {
         allMarkdownRemark(
-          sort: { order: DESC, fields: [frontmatter___date] }
+          sort: { order: ASC, fields: [frontmatter___order] }
           filter: { frontmatter: { templateKey: { eq: "work-post" } } }
         ) {
           edges {
@@ -66,6 +66,7 @@ export default () => (
                 templateKey
                 date(formatString: "MMMM DD, YYYY")
                 description
+                order
                 image {
                     childImageSharp {
                       fixed(width: 500) {
