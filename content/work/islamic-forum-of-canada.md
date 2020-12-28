@@ -1,5 +1,6 @@
 ---
 templateKey: work-post
+order: "2"
 path: ifc
 title: Islamic Forum of Canada
 description: UX/UI & Lead Web Dev
@@ -138,6 +139,16 @@ workContent:
 
       This final CTA is sitewide where it makes sense.
 ctaTitle: Questions? I may have answers!
-ctaText: If you'd like to find out more, please get in touch.
 ctaBtn: Let's Chat
+cta:
+  ctaTitle: Get in Touch
+  ctaText: Are you looking to do something similar? Let's connect. I can advise
+    you on how to go about the process.
+  ctaBtn: Send a Message
+seo:
+  seoTitle: IFC - Redesign in Sketch | Jason Somai
+  seoDescription: The Islamic Forum of Canada is a local Mosque that needed a
+    website that could work for them. Check out how I've designed their new site
+    to make that happen.
+ctaText: If you'd like to find out more, please get in touch.
 ---
