@@ -317,9 +317,27 @@ const IndexPage = ({ data }) => {
       </div>
       </div>
       <div id="contact">
-      <div class="container">
-        <div class="about" dangerouslySetInnerHTML={{ __html: data.markdownRemark.html}}></div>
-      </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-6">
+              <div id="about">
+                <div class="image"></div>
+                <div class="text">
+                <h4>About Me</h4>
+                <div class="regular-text" dangerouslySetInnerHTML={{ __html: data.markdownRemark.html}}></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6">
+            <form name="contact" method="POST" data-netlify="true">
+    <div class="input-wrapper"><input type="text" name="name" required/><label>Name</label></div>
+    <div class="input-wrapper"><input type="email" name="email" required/><label>Email</label></div>
+    <div class="input-wrapper"><textarea name="message" required></textarea><label>Message</label></div>
+    <button type="submit" class="btn solid">Send</button>
+</form>
+            </div>
+          </div>  
+        </div>
       </div>
     </div>
   )

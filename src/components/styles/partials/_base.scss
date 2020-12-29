@@ -267,29 +267,44 @@ background-image: url("data:image/svg+xml,%3Csvg width='7.5' height='7.5' viewBo
 	.text-wrapper{
 		position: relative;
 	}
-	.wpcf7  label {
-		position: absolute;
-		top: 2.75rem;
-		left: 20px;
-		transition: all .1s ease-in-out;
-		z-index: 1;
-		@extend .sub;
-		}
-	.wpcf7 label.move {
-		font-size: 10px;
-		top: 1.75rem;
-		left: 15px;
-	}
+	form > div {
+		position: relative;
+		margin-bottom:1rem;
+	  }
+	
 	input[type=text], input[type=email], textarea{
 		background-color:#FFF;
-		border-radius:8px;
 		padding:1.2rem 1rem 1rem;
 		width:100%;
+		border:1px solid transparent;
 	}
 	input[type=submit]{
 		margin-top:1rem;
 		@extend .btn;
 		@extend .btn.solid;
+	}
+	form > div > label {
+		position: absolute;
+		top: 1.2rem;
+		left: 20px;
+		transition: all .1s ease-in-out;
+		z-index: 1;
+		@extend .sub;
+	}
+
+	input:focus + label, textarea:focus + label, input:valid + label, textarea:valid + label, input:invalid + label, textarea:invalid + label{
+		font-size: 10px;
+		top: .25rem;
+		left: 15px;
+	}
+	input:invalid, textarea:invalid{
+		border-color:#F00;
+		+ label{
+			color:#F00;
+			&:after{
+				content:" is Invalid";
+			}
+		} 
 	}
 }
 
