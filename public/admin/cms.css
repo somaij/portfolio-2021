@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Jost:wght@500;700&display=swap');
+html {
+    background: #F7f7f7;
+    padding:1rem;
+}
+body {
+	font: 400 16px/1.6 'Inter', sans-serif;
+	color: #00171fd7;
+	margin: 0;
+	min-height: 100%;
+	display: flex;
+  flex-direction: column;
+  background:#F7f7f7;
+}
+h1,
+h2,
+h3 {
+	font-family:"Jost", sans-serif;
+	font-weight: 400;
+	color: #00171F;
+	font-size:3rem;
+	line-height:1.1;
+}
+img{
+    width:100%;
+    height: auto;
+}
