@@ -329,7 +329,7 @@ const IndexPage = ({ data }) => {
               </div>
             </div>
             <div class="col-12 col-lg-6">
-            <form name="contact" method="post" data-netlify="true" netlify-honeypot="bot-field">
+            <form name="contactForm" method="post" data-netlify="true" netlify-honeypot="bot-field">
             <input type="hidden" name="form-name" value="contactForm" />
     <div class="input-wrapper"><input type="text" name="name" placeholder="Johnny Appleseed" required/><label>Name</label></div>
     <div class="input-wrapper"><input type="email" name="email" placeholder="johnny.appleseed@gmail.com" required/><label>Email</label></div>
