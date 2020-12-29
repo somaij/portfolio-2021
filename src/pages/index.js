@@ -312,7 +312,7 @@ const IndexPage = ({ data }) => {
           </div>
         </div>
         <div class="row">
-        <BlogRoll />
+        <BlogRoll count="1"/>
         </div>
       </div>
       </div>

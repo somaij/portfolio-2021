@@ -8,6 +8,7 @@ import BlogRoll from '../components/BlogRoll'
 import Header from '../components/header'
 import SplitText from '../components/splitText'
 import ReactAnime from 'react-animejs'
+import Img from "gatsby-image"
 
 const {Anime, stagger} = ReactAnime
 
@@ -17,6 +18,7 @@ const random = (min, max) => {
 
 const BlogPage = ({ data }) => {
     console.log("data,", data)
+    const { edges: posts } = data.allMarkdownRemark
     return (
         <div>
           <Header/>
@@ -81,7 +83,33 @@ const BlogPage = ({ data }) => {
             </div>
             <div id="blog-posts">
               <div class="container">
-              <BlogRoll />
+              <div class="row justify-content-center">
+      
+        {posts &&
+          posts.map(({ node: post }) => (
+            <div className="col-10 col-lg-4">
+              <Link to={"/blog" + post.fields.slug} className="post-preview">
+                  {post.frontmatter.image ? (
+                    <div className="image">
+                      <Img
+                        fixed={post.frontmatter.image.childImageSharp.fixed}
+                        />
+                    </div>
+                  ) : null}
+                <div className="text">
+                <h3>
+                      {post.frontmatter.title}
+                </h3>
+                <p>
+                  {post.frontmatter.description}
+                </p>
+                <span className="btn outline white">Read</span>
+                </div>
+                </Link>
+                </div>
+          ))}
+      
+      </div>
               </div>
             
             </div>
@@ -92,12 +120,31 @@ const BlogPage = ({ data }) => {
       export default BlogPage
       
       export const pageQuery = graphql`
-        query BlogPageTemplate {
-          markdownRemark(frontmatter: { templateKey: { eq: "blog" } }) {
-            frontmatter {
-              title
-              subtitle
+      query BlogAllQuery {
+        allMarkdownRemark(
+          sort: { order: DESC, fields: [frontmatter___date] }
+          filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
+        ) {
+          edges {
+            node {
+              fields {
+                slug
+              }
+              frontmatter {
+                title
+                templateKey
+                date(formatString: "MMMM DD, YYYY")
+                description
+                image {
+                    childImageSharp {
+                      fixed(width: 320) {
+                        ...GatsbyImageSharpFixed
+                      }
+                    }
+                  }
+              }
             }
           }
         }
-      `
+      }
+    `

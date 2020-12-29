@@ -49,13 +49,14 @@ BlogRoll.propTypes = {
   }),
 }
 
-export default () => (
+export default ({count}) => (
   <StaticQuery
     query={graphql`
       query BlogRollQuery {
         allMarkdownRemark(
           sort: { order: DESC, fields: [frontmatter___date] }
           filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
+          limit: 3
         ) {
           edges {
             node {
