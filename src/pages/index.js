@@ -331,9 +331,9 @@ const IndexPage = ({ data }) => {
             <div class="col-12 col-lg-6">
             <form name="contact" method="post" data-netlify="true" netlify-honeypot="bot-field">
             <input type="hidden" name="form-name" value="contactForm" />
-    <div class="input-wrapper"><input type="text" name="name" required/><label>Name</label></div>
-    <div class="input-wrapper"><input type="email" name="email" required/><label>Email</label></div>
-    <div class="input-wrapper"><textarea name="message" required></textarea><label>Message</label></div>
+    <div class="input-wrapper"><input type="text" name="name" placeholder="Johnny Appleseed" required/><label>Name</label></div>
+    <div class="input-wrapper"><input type="email" name="email" placeholder="johnny.appleseed@gmail.com" required/><label>Email</label></div>
+    <div class="input-wrapper"><textarea name="message" placeholder="Your stuff is cool. I have a question about..." required></textarea><label>Message</label></div>
     <button type="submit" class="btn solid">Send</button>
 </form>
             </div>

@@ -277,34 +277,28 @@ background-image: url("data:image/svg+xml,%3Csvg width='7.5' height='7.5' viewBo
 		padding:1.2rem 1rem 1rem;
 		width:100%;
 		border:1px solid transparent;
+		transition:250ms all ease;
+		&:valid{
+			background-color:transparent;
+			border-color:rgba($blue,0.5);
+		}
 	}
 	input[type=submit]{
 		margin-top:1rem;
 		@extend .btn;
 		@extend .btn.solid;
 	}
+	::placeholder{
+		color:rgba($dark-gray, 0.3)
+	}
 	form > div > label {
 		position: absolute;
-		top: 1.2rem;
-		left: 20px;
-		transition: all .1s ease-in-out;
-		z-index: 1;
-		@extend .sub;
-	}
-
-	input:focus + label, textarea:focus + label, input:valid + label, textarea:valid + label, input:invalid + label, textarea:invalid + label{
 		font-size: 10px;
 		top: .25rem;
 		left: 15px;
-	}
-	input:invalid, textarea:invalid{
-		border-color:#F00;
-		+ label{
-			color:#F00;
-			&:after{
-				content:" is Invalid";
-			}
-		} 
+		transition: all .1s ease-in-out;
+		z-index: 1;
+		@extend .sub;
 	}
 }
 
