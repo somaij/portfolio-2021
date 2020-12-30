@@ -121,6 +121,51 @@ const WorkPost = ({ data }) => {
           </div>
       </div>
     </div>
+    <div id="work-cta" class="end-cta">
+    <div class="blob">
+            <Anime
+      initial={[
+        {
+          targets: "#blob-svg path",
+					duration: 20000,
+          easing: "easeInOutSine(0.25, 1)",
+					loop: true,
+          
+          direction: 'alternate',
+          keyframes: [
+            {
+              d: "M426.5,293.5Q401,337,381,389Q361,441,305.5,461Q250,481,197,457Q144,433,119.5,386Q95,339,65,294.5Q35,250,78,212.5Q121,175,157,163.5Q193,152,221.5,102.5Q250,53,293.5,76Q337,99,339.5,148Q342,197,397,223.5Q452,250,426.5,293.5Z"
+            },
+            {
+              d: "M421.5,290.5Q390,331,345.5,335Q301,339,275.5,385Q250,431,215.5,400Q181,369,168,337Q155,305,146,277.5Q137,250,133,215Q129,180,129,110.5Q129,41,189.5,86Q250,131,291,119.5Q332,108,346.5,147Q361,186,407,218Q453,250,421.5,290.5Z"
+            },
+            {
+              d: "M399.5,287Q378,324,349.5,349Q321,374,285.5,381Q250,388,205,397.5Q160,407,103.5,387Q47,367,75.5,308.5Q104,250,113,213Q122,176,159.5,167.5Q197,159,223.5,97Q250,35,294.5,66Q339,97,378.5,125Q418,153,419.5,201.5Q421,250,399.5,287Z"
+            }
+          ]
+          
+        }
+      ]}
+      >
+            <svg id="blob-svg" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M393.5,295.5Q408,341,389.5,400Q371,459,310.5,432Q250,405,208.5,399.5Q167,394,117.5,374.5Q68,355,53,302.5Q38,250,55,198.5Q72,147,130.5,145.5Q189,144,219.5,98.5Q250,53,297.5,69Q345,85,388.5,115Q432,145,405.5,197.5Q379,250,393.5,295.5Z" fill="#5E7CE2" fill-opacity="1"/>
+</svg>
+</Anime>
+            </div>
+      <div class="container">
+      <div class="row justify-content-center align-items-center">
+      <div class="col-12 col-lg-8">
+      <h2>{data.markdownRemark.frontmatter.cta.ctaTitle}</h2>
+      <p>{data.markdownRemark.frontmatter.cta.ctaText}</p>
+      </div>
+      <div class="col-12 col-lg-4 d-flex justify-content-end">
+      <AnchorLink to="/#contact" className="btn solid white" title={data.markdownRemark.frontmatter.cta.ctaBtn}/>
+      </div>
+    </div>
+    </div>
+      
+      
+    </div>
     </Layout>
   )
 }
