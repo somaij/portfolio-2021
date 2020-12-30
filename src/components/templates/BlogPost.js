@@ -3,6 +3,7 @@ import { graphql } from "gatsby"
 import Img from "gatsby-image"
 import Header from '../header'
 import ReactAnime from 'react-animejs'
+import { Helmet } from "react-helmet"
 
 const {Anime, stagger} = ReactAnime
 
@@ -16,6 +17,11 @@ const BlogPost = ({ data }) => {
   console.log("data,", data)
   return (
     <div>
+      <Helmet>
+    <title>{data.markdownRemark.frontmatter.seo.seoTitle}</title>
+    <meta name="description" content={data.markdownRemark.frontmatter.seo.seoDescription} />
+    <meta name="og:image" content={data.markdownRemark.frontmatter.image.publicURL} />
+  </Helmet>
       <Header/>
       <div id="post-header">
         <div class="background">

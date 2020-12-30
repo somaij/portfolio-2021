@@ -88,3 +88,9 @@ collections:
         - {label: "Blog Background", name: blog-background, widget: image }
         - {label: About, name: body, widget: markdown}
         - {label: "About Image", name: about-image, widget: image }
+        - label: "SEO"
+          name: "seo"
+          widget: "object"
+          fields:    
+            - {label: Title, name: seoTitle, widget: string}
+            - {label: Description, name: seoDescription, widget: text}

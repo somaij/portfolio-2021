@@ -9,6 +9,7 @@ import WorkRoll from '../components/WorkRoll'
 import Header from '../components/header'
 import SplitText from '../components/splitText'
 import ReactAnime from 'react-animejs'
+import { Helmet } from "react-helmet"
 
 const {Anime, stagger} = ReactAnime
 
@@ -21,6 +22,11 @@ const IndexPage = ({ data }) => {
   return (
     
     <div>
+        <Helmet>
+    <title>{data.markdownRemark.frontmatter.seo.seoTitle}</title>
+    <meta name="description" content={data.markdownRemark.frontmatter.seo.seoDescription} />
+    <meta name="og:image" content={data.markdownRemark.frontmatter.about_image.publicURL} />
+  </Helmet>
       <Header/>
       <div id="masthead">
       <Anime
@@ -357,6 +363,10 @@ export const pageQuery = graphql`
         }
         about_image{
           publicURL
+        }
+        seo{
+          seoTitle
+          seoDescription
         }
       }
       html
