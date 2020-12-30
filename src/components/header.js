@@ -1,6 +1,7 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import { AnchorLink } from "gatsby-plugin-anchor-links"
 
 const Header = ({ siteTitle }) => (
   <nav>
@@ -20,7 +21,7 @@ const Header = ({ siteTitle }) => (
           Blog
         </Link>
         <Link
-          to="/#work"
+          to="/#home-work"
         >
           Work
         </Link>

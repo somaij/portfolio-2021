@@ -5,8 +5,10 @@ import Img from "gatsby-image"
 import ReactMarkdown from 'react-markdown'
 import Header from '../header.js'
 import ReactAnime from 'react-animejs'
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet"
+import { AnchorLink } from "gatsby-plugin-anchor-links"
 const ReactMarkdownWithHtml = require('react-markdown/with-html')
+
 
 const {Anime, stagger} = ReactAnime
 
@@ -16,7 +18,7 @@ const random = (min, max) => {
 
 
 const convertToKebabCase = (string) => {
-  return string.replace(/\s+/g, '-').toLowerCase();
+  return string.replace(/[^a-zA-Z ]/g, '').replace(/\s+/g, '-').toLowerCase();
 }
 
 const WorkPost = ({ data }) => {
@@ -63,7 +65,7 @@ const WorkPost = ({ data }) => {
           <div className="row">
             <div className="text col-12 col-lg-6 d-flex align-items-center justify-content-center">
             <div className="content">
-              <a href="/#work" class="arrow-btn white reverse">All Work</a>
+            <AnchorLink to="/#home-work" className="arrow-btn white reverse" title="All Work"/>
             <div className="sub">{data.markdownRemark.frontmatter.description}</div>
             <h1>{data.markdownRemark.frontmatter.title}</h1>
             <div className="regular-text"><ReactMarkdown>{data.markdownRemark.frontmatter.summary}</ReactMarkdown></div>
@@ -88,7 +90,7 @@ const WorkPost = ({ data }) => {
         <div className="row glance">
         {data.markdownRemark.frontmatter.glance.map((glance, i) => [
           <div className="col-12 col-md-4" key={i}>
-          <a className="glance-link" href={"#" + glance.btnlink}>
+          <AnchorLink className="glance-link" to={"#" + glance.btnlink}>
           <div className="image"><Img
   fixed={glance.image.childImageSharp.fixed}
 /></div>
@@ -97,14 +99,14 @@ const WorkPost = ({ data }) => {
           <p>{glance.description}</p>
           <span className="arrow-btn">{glance.btntext}</span>
           </div>
-          </a>
+          </AnchorLink>
           </div>
           ])}
         </div>
           <div className="row">
             <div className="col-12 col-md-3 col-lg-2 sidebar">
             {data.markdownRemark.frontmatter.workContent.map((section, i) => [
-            <a key={i} href={"#" + convertToKebabCase(section.sectionTitle)}>{section.sectionTitle}</a>
+            <AnchorLink key={i} to={"#" + convertToKebabCase(section.sectionTitle)}>{section.sectionTitle}</AnchorLink>
           ])}
             </div>
             <div className="col-12 col-md-9 col-lg-10 work-body">
