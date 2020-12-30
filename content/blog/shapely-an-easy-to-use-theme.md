@@ -37,7 +37,7 @@ After that, I just simply linked the resume page in the menu. There's also a fea
 
 Here was the end result. Not too bad for an hour's work!
 
-<a href="#img1" class="lightbox-link"><img class="inline-image height-400" src="/assets/chris-preview.jpg"/></a><a href="#" class="lightbox" id="img1"><span style="background-image: url('/assets/chris-preview.jpg')"></span></a>
+<a href="#img1" id="img-1-link" class="lightbox-link"><img class="inline-image height-400" src="/assets/chris-preview.jpg"/></a><a href="#img-1-link" class="lightbox" id="img1"><span style="background-image: url('/assets/chris-preview.jpg')"></span></a>
 
 ## Recommended Plugins
 
