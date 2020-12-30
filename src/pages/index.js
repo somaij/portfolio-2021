@@ -21,13 +21,12 @@ const IndexPage = ({ data }) => {
   console.log("data,", data)
   return (
     
-    <div>
+    <Layout>
         <Helmet>
     <title>{data.markdownRemark.frontmatter.seo.seoTitle}</title>
     <meta name="description" content={data.markdownRemark.frontmatter.seo.seoDescription} />
     <meta name="og:image" content={data.markdownRemark.frontmatter.about_image.publicURL} />
   </Helmet>
-      <Header/>
       <div id="masthead">
       <Anime
       initial={[
@@ -346,7 +345,7 @@ const IndexPage = ({ data }) => {
           </div>  
         </div>
       </div>
-    </div>
+    </Layout>
   )
 }
 

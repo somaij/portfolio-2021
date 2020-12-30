@@ -17,19 +17,6 @@ collections:
       - { name: description, label: Description }
       - { name: image, label: Image, widget: image }
       - { name: body, label: Body, widget: markdown }
-      - label: "CTA"
-        name: "cta"
-        widget: "object"
-        fields:    
-          - {label: Title, name: ctaTitle, widget: string}
-          - {label: Text, name: ctaText, widget: text}
-          - {label: Button Text, name: ctaBtn, widget: text}
-      - label: "SEO"
-        name: "seo"
-        widget: "object"
-        fields:    
-          - {label: Title, name: seoTitle, widget: string}
-          - {label: Description, name: seoDescription, widget: text}
   - name: work
     label: Work
     folder: content/work
@@ -61,20 +48,10 @@ collections:
         widget: "list"
         fields: 
           - {label: Section Title, name: sectionTitle, widget: string}
-          - {label: Section Text, name: sectionText, widget: 'markdown'}
-      - label: "CTA"
-        name: "cta"
-        widget: "object"
-        fields:    
-          - {label: Title, name: ctaTitle, widget: string}
-          - {label: Text, name: ctaText, widget: text}
-          - {label: Button Text, name: ctaBtn, widget: text}
-      - label: "SEO"
-        name: "seo"
-        widget: "object"
-        fields:    
-          - {label: Title, name: seoTitle, widget: string}
-          - {label: Description, name: seoDescription, widget: text}
+          - {label: Section Text, name: sectionText, widget: 'markdown'}    
+      - {label: CTA Title, name: ctaTitle, widget: string}
+      - {label: CTA Text, name: ctaText, widget: text}
+      - {label: CTA Button Text, name: ctaBtn, widget: text}
   - name: page
     label: Page
     files:
@@ -88,9 +65,3 @@ collections:
         - {label: "Blog Background", name: blog-background, widget: image }
         - {label: About, name: body, widget: markdown}
         - {label: "About Image", name: about-image, widget: image }
-        - label: "SEO"
-          name: "seo"
-          widget: "object"
-          fields:    
-            - {label: Title, name: seoTitle, widget: string}
-            - {label: Description, name: seoDescription, widget: text}

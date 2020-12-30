@@ -1,5 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
+import Layout from "../../components/layout"
 import Img from "gatsby-image"
 import ReactMarkdown from 'react-markdown'
 import Header from '../header.js'
@@ -21,13 +22,12 @@ const convertToKebabCase = (string) => {
 const WorkPost = ({ data }) => {
   console.log("data,", data)
   return (
-    <div>
+    <Layout>
     <Helmet>
     <title>{data.markdownRemark.frontmatter.seo.seoTitle}</title>
     <meta name="description" content={data.markdownRemark.frontmatter.seo.seoDescription} />
     <meta name="og:image" content={data.markdownRemark.frontmatter.image.publicURL} />
   </Helmet>
-      <Header/>
       <div id="work-header">
       <div class="blob">
             <Anime
@@ -119,7 +119,7 @@ const WorkPost = ({ data }) => {
           </div>
       </div>
     </div>
-    </div>
+    </Layout>
   )
 }
 

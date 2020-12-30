@@ -150,6 +150,11 @@ nav {
 	a {
 		color: #FFF;
 		@extend .sub;
+		transition:250ms all ease;
+		&:hover{
+			color:rgba(#FFF,0.6);
+			
+		}
 	}
 
 	.menu a {
@@ -361,8 +366,8 @@ footer {
 }
 
 .post-preview {
-	background-color: rgba(#000, 0.5);
-	backdrop-filter: blur(20px);
+	background-color: rgba(#000, 0.8);
+	backdrop-filter: blur(3px);
 	color: #FFF;
 	display: block;
 	border-radius: 0;
@@ -370,6 +375,8 @@ footer {
 	transition: 250ms all ease;
 	padding: 0;
 	margin-bottom:1rem;
+	z-index: 2;
+	position: relative;
 	&:hover {
 		transform: translateY(-20px);
 		box-shadow: 5px 10px 50px rgba(#000, 0.1);

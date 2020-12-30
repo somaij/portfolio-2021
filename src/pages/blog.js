@@ -4,11 +4,11 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
-import BlogRoll from '../components/BlogRoll'
 import Header from '../components/header'
 import SplitText from '../components/splitText'
 import ReactAnime from 'react-animejs'
 import Img from "gatsby-image"
+import { Helmet } from "react-helmet"
 
 const {Anime, stagger} = ReactAnime
 
@@ -20,8 +20,11 @@ const BlogPage = ({ data }) => {
     console.log("data,", data)
     const { edges: posts } = data.allMarkdownRemark
     return (
-        <div>
-          <Header/>
+        <Layout>
+          <Helmet>
+    <title>UX/UI and Front-End Dev Blog | Jason Somai</title>
+    <meta name="description" content="Here's a collection of useful front-end tricks, design analysis and not so useful musings." />
+  </Helmet>
             <div id="blog-header">
             <div class="blog-blob">
             <Anime
@@ -113,7 +116,7 @@ const BlogPage = ({ data }) => {
               </div>
             
             </div>
-        </div>
+        </Layout>
         )
       }
       

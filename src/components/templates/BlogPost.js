@@ -1,5 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
+import Layout from "../../components/layout"
 import Img from "gatsby-image"
 import Header from '../header'
 import ReactAnime from 'react-animejs'
@@ -16,13 +17,12 @@ const random = (min, max) => {
 const BlogPost = ({ data }) => {
   console.log("data,", data)
   return (
-    <div>
+    <Layout>
       <Helmet>
     <title>{data.markdownRemark.frontmatter.seo.seoTitle}</title>
     <meta name="description" content={data.markdownRemark.frontmatter.seo.seoDescription} />
     <meta name="og:image" content={data.markdownRemark.frontmatter.image.publicURL} />
   </Helmet>
-      <Header/>
       <div id="post-header">
         <div class="background">
       <Img
@@ -87,7 +87,7 @@ const BlogPost = ({ data }) => {
           </div>
       </div>  
       </div>
-    </div>
+    </Layout>
   )
 }
 
