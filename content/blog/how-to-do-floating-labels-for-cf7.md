@@ -4,8 +4,17 @@ path: cf7
 date: 2020-12-26T17:52:59.464Z
 title: How to do floating labels for CF7
 description: If you have a large Contact Form 7 form, this is a great way to
-  unclutter your   page.
+  unclutter your page.
 image: assets/mobile-contact-us-form.jpg
+cta:
+  ctaBtn: Shoot a Message
+  ctaTitle: Still need a helping hand?
+  ctaText: Send me an email and I'll hopefully be able to point you in the right
+    direction.
+seo:
+  seoTitle: How to do Contact Form 7 Floating Labels | Jason Somai
+  seoDescription: The floating label has been around for some time now, but it's
+    tricky to do in CF7. Follow this tutorial and modernize your form's UX.
 ---
 Everybody knows why floating labels are great, right? But here's a refresher link from CSS Tricks just in case you don't:
 
