@@ -2,13 +2,13 @@
 templateKey: blog-post
 path: free-wp-theme
 date: 2020-12-30T04:43:22.722Z
-title: Shapely - An easy to use theme
-description: Here's a free WordPress theme I can easily recommend.
-image: assets/laptop-from-side.jpg
 cta:
   ctaTitle: Need help with your website?
   ctaText: Maybe I can point you in the right direction.
   ctaBtn: Email Now
+title: Shapely - An easy to use theme
+description: Here's a free WordPress theme I can easily recommend.
+image: assets/laptop-from-side.jpg
 seo:
   seoTitle: Shapely - a Good Free WordPress Theme | Jason Somai
   seoDescription: If you're looking to set up a basic WordPress website without
@@ -37,7 +37,7 @@ After that, I just simply linked the resume page in the menu. There's also a fea
 
 Here was the end result. Not too bad for an hour's work!
 
-<a href="#img1" class="lightbox-link"><img class="inline-image height-400" src="/assets/laptop-from-side.jpg"/></a><a href="#" class="lightbox" id="img1"><span style="background-image: url('/assets/laptop-from-side.jpg')"></span></a>
+<a href="#img1" class="lightbox-link"><img class="inline-image height-400" src="/assets/chris-preview.jpg"/></a><a href="#" class="lightbox" id="img1"><span style="background-image: url('/assets/chris-preview.jpg')"></span></a>
 
 ## Recommended Plugins
 
