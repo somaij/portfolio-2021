@@ -1,6 +1,5 @@
 ---
 templateKey: work-post
-order: "1"
 path: tla
 title: Triangle Learning Academy
 description: UX/UI Developer
@@ -10,8 +9,8 @@ summary: "The Triangle Learning Academy is an internal facing learning platform
   employees. It enables them to learn new skills for free from a variety of
   different sources and materials. "
 summary-buttons:
-  - btnlink: View Wireframes
-    btntext: "#"
+  - btnlink: tla-reads
+    btntext: TLA Reads
 glance:
   - image: assets/blog-background.jpg
     title: TLA Reads
@@ -25,6 +24,7 @@ workContent:
       when you click on a book's cover.  "
 ctaTitle: Want to learn more?
 ctaBtn: Email Me!
+order: "1"
 cta:
   ctaTitle: Like my work?
   ctaText: Connect and we can discuss UX!
