@@ -454,16 +454,17 @@ footer {
 	flex-direction: column;
 	justify-content: flex-end;
 	margin-bottom: 2rem;
-
+	overflow:hidden;
 	&:before {
-		width: 100%;
+		width: calc(100% + 200px);
 		height: 100%;
-		background: linear-gradient(255.43deg, rgba(0, 23, 31, 0) 0%, rgba(0, 23, 31, 0.25) 51.56%, rgba(0, 23, 31, 0.75) 100%);
+		background: linear-gradient(255.43deg, rgba($dark-gray, 0) 0%, rgba($dark-gray, 0.25) 31.56%, rgba($dark-gray, 0.75) 100%);
 		position: absolute;
 		top: 0;
-		left: 0;
+		left: -200px;
 		z-index: 3;
 		content: "";
+		transition:250ms all ease;
 	}
 
 	.image {
@@ -490,12 +491,21 @@ footer {
 		z-index: 4;
 		color: #FFF;
 		padding: 2rem;
-
+		transition:250ms all ease;
 		h3 {
 			color: #FFF;
 			font-size: 1.5rem;
 			line-height: 1.2;
 			margin-bottom: 0.5rem;
+			transition:250ms all ease;
+		}
+	}
+	&:hover{
+		&:before{
+			background-position:200px;  
+		}
+		.text, .text h3{
+			color:$blue;
 		}
 	}
 }
