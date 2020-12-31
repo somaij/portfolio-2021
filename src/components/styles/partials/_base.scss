@@ -81,7 +81,8 @@
 		margin-right:2rem;
 	}
 	@media screen and (max-width:575px){
-		height:90vh;
+		height:70vh;
+
 	}
 }
 
@@ -94,7 +95,10 @@
 		padding:1rem;
 	}
 	h2{
-        margin-bottom:5rem;
+		margin-bottom:5rem;
+		@media screen and (max-width:575px){
+			margin-bottom:3rem;
+		}
 	}
 	.home-work-container{
 		margin:0 auto;
@@ -111,6 +115,9 @@
 		background-color: #FFF;
 		position: relative;	
 		padding:5rem 0;	
+		@media screen and (max-width:575px){
+			padding:3rem 0;
+		}
 		overflow: hidden;
 		box-shadow:-20px 20px 20px rgba($blue,0.1);
 		.blob{
@@ -151,6 +158,9 @@ background-image: url("data:image/svg+xml,%3Csvg width='7.5' height='7.5' viewBo
 #home-blog{
 	background-color:$dark-gray;
 	padding:10rem 0;
+	@media screen and (max-width:575px){
+		padding:5rem 0 3rem;
+	}
 	position: relative;
     h2{
         margin-bottom:5rem;
@@ -184,6 +194,7 @@ background-image: url("data:image/svg+xml,%3Csvg width='7.5' height='7.5' viewBo
 		z-index: 3;
 		position: relative;
 	}
+
 }
 
 
@@ -194,9 +205,15 @@ background-image: url("data:image/svg+xml,%3Csvg width='7.5' height='7.5' viewBo
 	
 	padding:7rem 0;
 	position: relative;
+	@media screen and (max-width:575px){
+		padding:3rem 0 ;
+	}
 	h2{
 		font-size:3rem;
 		margin-bottom:7rem;
+		@media screen and (max-width:575px){
+			margin-bottom: 3rem;
+		}
 	}
 	.sub{
 		color:$blue;
@@ -209,6 +226,9 @@ background-image: url("data:image/svg+xml,%3Csvg width='7.5' height='7.5' viewBo
 		padding-bottom: 5rem;
 		display: flex;
 		justify-content: flex-end;
+		@media screen and (max-width:767px){
+			flex-direction: column;
+		}
 		.image {
 			width:75%;
 			height:500px;
@@ -216,6 +236,13 @@ background-image: url("data:image/svg+xml,%3Csvg width='7.5' height='7.5' viewBo
 			left:-10%;
 			position: absolute;
 			z-index: 1;
+			@media screen and (max-width:767px){
+				position: relative;
+				width: 100%;
+				top: 0;
+				left:0;
+				height:250px
+			}
 			.gatsby-image-wrapper{
 				height: 100% !important;
 				width:100% !important;
@@ -238,6 +265,11 @@ background-image: url("data:image/svg+xml,%3Csvg width='7.5' height='7.5' viewBo
 			height: 100%;
 			z-index: 2;
 			position: relative;
+			@media screen and (max-width:767px){
+				width: 100%;
+				padding:2rem;
+				font-size:0.9rem;
+			}
 		}
 		.socials{
 			display: flex;

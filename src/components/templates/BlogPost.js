@@ -126,12 +126,12 @@ const BlogPost = ({ data }) => {
             </Anime>
             </div>
         <div class="container">
-          <div class="row justify-content-center align-items-center">
+          <div class="row justify-content-center align-items-center justify-content-center justify-content-lg-start">
             <div class="col-12 col-lg-8">
             <h2>{data.markdownRemark.frontmatter.cta.ctaTitle}</h2>
             <p>{data.markdownRemark.frontmatter.cta.ctaText}</p>
             </div>
-            <div class="col-12 col-lg-4 d-flex justify-content-end">
+            <div class="col-12 col-lg-4 d-flex justify-content-center justify-content-lg-end">
             <AnchorLink to="/#contact" className="btn solid white" title={data.markdownRemark.frontmatter.cta.ctaBtn}/>
             </div>
           </div>
