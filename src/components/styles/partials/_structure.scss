@@ -172,6 +172,13 @@ footer {
 	@extend .sub;
 	padding: 1rem;
 	text-align: center;
+	a{
+		color:rgba(#FFF, 0.75);
+		transition:250ms all ease;
+		&:hover{
+			color:$blue;
+		}
+	}
 }
 
 .sub {
