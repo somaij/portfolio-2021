@@ -24,7 +24,7 @@ glance:
       prototype with. My classmates tested my user flows with these.
     btnlink: user-flows-&-sketches
     btntext: Skip to Sketches
-    anchor: "#user-flows-&-sketches"
+    anchor: "#user-flows-sketches"
   - image: assets/wireframe.png
     title: Final Prototype
     description: The final low fidelity wireframe was made in Moqups. It’s fully
