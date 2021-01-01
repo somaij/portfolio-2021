@@ -1,6 +1,5 @@
 ---
 templateKey: work-post
-order: "3"
 path: guideo
 title: Guideo
 description: UX/UI Design
@@ -89,7 +88,7 @@ workContent:
       would, but I kept it laser focused on one thing: making commute routes
       changeable at all times.
 
-      ![Information Architecture for Guideo](/assets/ia.jpg)
+      <a href="#img1" id="img-1-link" class="lightbox-link"><img class="inline-image height-400" src="/assets/ia.jpg"/></a><a href="#img-1-link" class="lightbox" id="img1"><span style="background-image: url('/assets/ia.jpg')"></span></a>
   - sectionTitle: User Flows & Sketches
     sectionText: >-
       Waze and Google Maps were the main user interface inspiration. All of the
@@ -176,6 +175,7 @@ workContent:
       Industry professionals [Gerard Dolan](https://www.linkedin.com/in/gerarddolan/) and [David Aboutboul](https://www.linkedin.com/in/david-aboutboul/) taught our class invaluable life and career lessons. I hope to carry a design thinking approach to everything that I do henceforth.
 ctaTitle: Let's Talk
 ctaBtn: Connect
+order: "3"
 cta:
   ctaBtn: Contact Me!
   ctaTitle: Let's Talk
