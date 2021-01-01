@@ -445,6 +445,21 @@ footer {
 			overflow: hidden;
 		}
 	}
+	@media screen and (max-width:575px){
+		.text{
+			padding:1.5rem;
+		}
+		.text h3{
+			font-size:1.5rem;
+		}
+		.text p{
+			font-size:0.9rem;
+		}
+		.btn {
+			margin-top: 1.5rem;
+		}
+	}
+
 }
 
 .work-preview {
@@ -508,6 +523,15 @@ footer {
 			color:$blue;
 		}
 	}
+	@media screen and (max-width:575px){
+		height:175px;
+		.text{
+			padding:1.5rem;
+			h3{
+				font-size:1.3rem;
+			}
+		}
+	}
 }
 
 .glance-link {
@@ -515,7 +539,7 @@ footer {
 	display: block;
 	width: 100%;
 	transition: 250ms all ease;
-
+	margin-bottom:2rem;
 	.image>div {
 		height: 200px !important;
 		width: 100% !important;
@@ -542,9 +566,48 @@ footer {
 			height: 150px;
 			display: flex;
 			align-items: center;
+			@media screen and (max-width:991px){
+				height:auto;
+				padding:1rem 0;
+			}
 		}
 	}
-
+	@media screen and (min-width:576px) and (max-width:991px){
+		display:flex;
+		align-items: center;
+		justify-content: center;
+		height:230px;
+		.image{
+			width:30%;
+			height:100%;
+			.gatsby-image-wrapper{
+				height:230px !important;
+			}
+		}
+		.text{
+			width:70%;
+			padding:2rem;
+			h3{
+				font-size:1.6rem;
+			}
+		}
+	}
+	@media screen and (max-width:575px){
+		.text{
+			padding: 1.5rem;
+			h3{
+				font-size:1.5rem;
+			}
+			p{
+				font-size:0.9rem;
+			}
+		}
+		.image{
+			.gatsby-image-wrapper{
+				height:120px !important;
+			}
+		}
+	}
 	&:hover {
 		transform: translateY(-20px);
 		box-shadow: 5px 10px 50px rgba(#000, 0.1);
@@ -608,6 +671,9 @@ footer {
 
 		object-fit: contain;
 	}
+	iframe{
+		max-width:100%;
+	}
 
 }
 
@@ -636,6 +702,10 @@ footer {
 		bottom:0;
 		right:150px;
 		margin:auto;
+		overflow:hidden;
+		@media screen and (max-width:1499px){
+			right:0;
+		}
 		@media screen and (max-width:767px){
 			width:800px;
 			height: 800px;

@@ -87,9 +87,9 @@ const WorkPost = ({ data }) => {
         <div className="row text-center">
           <div className="col-12"><h2>At a Glance</h2></div>
         </div>
-        <div className="row glance">
+        <div className="row glance align-items-stretch">
         {data.markdownRemark.frontmatter.glance.map((glance, i) => [
-          <div className="col-12 col-md-4" key={i}>
+          <div className="col-12 col-lg-4" key={i}>
           <AnchorLink className="glance-link" to={"#" + glance.btnlink}>
           <div className="image"><Img
   fixed={glance.image.childImageSharp.fixed}
