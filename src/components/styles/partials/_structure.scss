@@ -524,7 +524,7 @@ footer {
 		}
 	}
 	@media screen and (max-width:575px){
-		height:175px;
+		height:210px;
 		.text{
 			padding:1.5rem;
 			h3{
@@ -604,7 +604,7 @@ footer {
 		}
 		.image{
 			.gatsby-image-wrapper{
-				height:120px !important;
+				height:150px !important;
 			}
 		}
 	}
@@ -623,6 +623,12 @@ footer {
 	h2,
 	h3 {
 		margin-bottom: 1rem;
+	}
+	
+	@media screen and (max-width:575px){
+		h2{
+			font-size:2.5rem;
+		}
 	}
 
 	p {

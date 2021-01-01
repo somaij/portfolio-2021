@@ -14,7 +14,7 @@ class BlogRoll extends React.Component {
       
         {posts &&
           posts.map(({ node: post }) => (
-            <div className="col-10 col-lg-4">
+            <div className="col-11 col-lg-4">
               <Link to={"/blog" + post.fields.slug} className="post-preview">
                   {post.frontmatter.image ? (
                     <div className="image">

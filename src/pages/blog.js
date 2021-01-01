@@ -90,7 +90,7 @@ const BlogPage = ({ data }) => {
       
         {posts &&
           posts.map(({ node: post }) => (
-            <div className="col-10 col-lg-4">
+            <div className="col-11 col-md-6 col-lg-4">
               <Link to={"/blog" + post.fields.slug} className="post-preview">
                   {post.frontmatter.image ? (
                     <div className="image">
