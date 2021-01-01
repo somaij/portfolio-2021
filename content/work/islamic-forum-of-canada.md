@@ -1,6 +1,5 @@
 ---
 templateKey: work-post
-order: "2"
 path: ifc
 title: Islamic Forum of Canada
 description: UX/UI & Lead Web Dev
@@ -33,7 +32,7 @@ workContent:
       #### Initial Wireframe
 
 
-      <a href="#img1" class="lightbox-link"><img class="inline-image height-400" src="/assets/home.png"/></a><a href="#" class="lightbox" id="img1"><span style="background-image: url('/assets/home.png')"></span></a>
+      <a href="#img1" id="img-1-link" class="lightbox-link"><img class="inline-image height-400" src="/assets/home.png"/></a><a href="#img-1-link" class="lightbox" id="img1"><span style="background-image: url('/assets/home.png')"></span></a>
 
 
       Afterwards the team and I created questions about the wireframe and also in general about the new website.
@@ -140,6 +139,7 @@ workContent:
       This final CTA is sitewide where it makes sense.
 ctaTitle: Questions? I may have answers!
 ctaBtn: Let's Chat
+order: "2"
 cta:
   ctaTitle: Get in Touch
   ctaText: Are you looking to do something similar? Let's connect. I can advise
