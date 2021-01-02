@@ -110,7 +110,9 @@ workContent:
 
       ![New User Flow Sketch](/assets/sketch2.jpg)
 
-      ![User Flow 1 Guideo](/assets/uf1.jpg)
+
+      <img src="/assets/uf1"/ class="centered-image height-600" />
+
 
       This new first flow is about a user is trying to find their way to work, and a delay comes up. They are be prompted to reroute and they follow the route. The revamped sketch included a full screen map, with a textbox at the top to type in the location.
 
