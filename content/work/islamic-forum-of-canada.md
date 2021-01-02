@@ -127,7 +127,7 @@ workContent:
       <img class="centered-image height-400" src="/assets/ifc-events.png"/>
 
 
-      Using *The Events Calendar* plugin, visitors will be able to check out the latest events that go on. During the pandemic, the mosque has resorted to using livestreams as a way to reach their followers. 
+      Using *The Events Calendar* plugin, visitors will be able to check out the latest events that go on. During the pandemic, the mosque has resorted to using livestreams as a way to reach their followers, and the inner event pages will be able to host their livestreams via YouTube.
 
 
       ### CTA
@@ -136,7 +136,25 @@ workContent:
       <img class="centered-image height-400" src="/assets/ifc-cta.png"/>
 
 
-      This final CTA is sitewide where it makes sense.
+      This final call to action is sitewide where it makes sense. The usage of the background popping above a darker off-white background really makes it more eye-catching then a regular banner type of CTA.
+
+
+      <a href="https://invis.io/J6U7ILKE7AB#/386902438_Home" class="btn outline">Full Home Page</a>
+  - sectionTitle: Madrasah (School)
+    sectionText: >-
+      This section of the site has a high importance on the success of the
+      mosque, and as a result needed to be treated like a secondary homepage. 
+
+      <a href="https://invis.io/J6U7ILKE7AB#/386902438_Home" class="arrow-btn">Full Madrasah Page Design</a> 
+
+
+      ### Masthead
+
+
+      This was designed to be more traditional in appearance, and get a strong message across that will hopefully encourage the user to enroll their child. There was a lot of strong imagery that the managing team already had, so I chose to lean into that more.
+
+
+      The Madrasah navigation item has a sub navigation that's always visible when on any page that's related to it.
 ctaTitle: Questions? I may have answers!
 ctaBtn: Let's Chat
 order: "2"
