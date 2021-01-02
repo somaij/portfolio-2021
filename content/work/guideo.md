@@ -108,21 +108,22 @@ workContent:
 
       **Version 2 First User Flow Sketch - Walk due to delays**
 
-      ![New User Flow Sketch](/assets/sketch2.jpg)
+      <img src="/assets/sketch2.jpg"/ class="centered-image height-600" />
 
 
-      <img src="/assets/uf1"/ class="centered-image height-600" />
+      <img src="/assets/uf1.jpg"/ class="centered-image height-600" />
 
 
       This new first flow is about a user is trying to find their way to work, and a delay comes up. They are be prompted to reroute and they follow the route. The revamped sketch included a full screen map, with a textbox at the top to type in the location.
 
       **Second User Flow - Navigate to David's Tea**
 
-      ![Second User Flow Sketch 1](/assets/sketch3.jpg)
+      <img src="/assets/sketch3.jpg"/ class="centered-image height-600" />
 
-      ![Second User Flow Sketch 2](/assets/sketch4.jpg)
+      <img src="/assets/sketch4.jpg"/ class="centered-image height-600" />
 
-      ![User Flow 2 Guideo](/assets/uf2.jpg)
+
+      <img src="/assets/uf2.jpg"/ class="centered-image height-600" />
 
       The second one is a user who wants to walk halfway instead of using public transit all the way. It's a spiritual successor to the original first sketch, in that it helps the user plan their route better.
   - sectionTitle: Wireframe
