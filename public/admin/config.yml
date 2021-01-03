@@ -23,7 +23,6 @@ collections:
     create: true
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "work-post"}
-      - { name: order, label: Order }
       - { name: path, label: Path }
       - { name: title, label: Title }
       - { name: description, label: Description }

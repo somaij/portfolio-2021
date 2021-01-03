@@ -663,6 +663,7 @@ footer {
 		&.height-400 {
 			max-height: 400px;
 		}
+		
 	}
 
 	.centered-image {
@@ -670,7 +671,7 @@ footer {
 		width:100%;
 		margin: 1rem auto;
 		display: block;
-
+		border:1px solid #f3f3f3;
 		&.height-400 {
 			max-height: 400px;
 		}
@@ -752,7 +753,7 @@ a.lightbox-link {
 	max-width: 600px;
 	margin: 1rem auto;
 	display: block;
-
+	border:1px solid #f3f3f3;
 	&:before {
 		content: "";
 		width: 100%;
