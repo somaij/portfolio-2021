@@ -100,6 +100,13 @@ workContent:
       The current version of the homepage shows most of what the mosque offers, without being overwhelming.
 
 
+
+
+      <a href="https://invis.io/J6U7ILKE7AB#/386902438_Home" class="arrow-btn">Full Home Page</a>
+
+
+
+
       ### Masthead
 
 
@@ -145,6 +152,8 @@ workContent:
       This section of the site has a high importance on the success of the
       mosque, and as a result needed to be treated like a secondary homepage. 
 
+
+
       <a href="https://invis.io/J6U7ILKE7AB#/386902438_Home" class="arrow-btn">Full Madrasah Page Design</a> 
 
 
@@ -155,6 +164,26 @@ workContent:
 
 
       The Madrasah navigation item has a sub navigation that's always visible when on any page that's related to it.
+
+
+
+
+      ### Informational Sections
+
+
+      The following two sections leans further into their strong imagery, and provides a spot for the team drive home the philosophy that drives their school. I decided to make a single link out to a curriculum page, to restrict information overload.  
+
+
+
+
+      ### Gallery
+
+
+      The best way of showing what their children will be doing in class is with photographic evidence. The gallery is a preview of a full gallery page, and it generates feelings of trust. I put this at the bottom because the only it's likely some users would reach the bottom of the page without taking an action in search of finding reasons to trust the program.
+  - sectionTitle: Prayer Times
+    sectionText: Design and Development wise, this is the section I'm most proud of.
+      In the Islamic Faith, there is a set calendar of prayer times, to the
+      minute, that are determined by the current date range.
 ctaTitle: Questions? I may have answers!
 ctaBtn: Let's Chat
 order: "2"
