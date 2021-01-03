@@ -20,8 +20,15 @@ glance:
     btntext: Skip to TLA Reads
 workContent:
   - sectionTitle: TLA Reads
-    sectionText: "This was the first page I redesigned for TLA. It features a popup
-      when you click on a book's cover.  "
+    sectionText: >-
+      This was the first page I redesigned for TLA. The original version used an
+      accordion style popout when clicking on book covers, which would shift
+      elements on the page around. I liked the concept of drawing in users with
+      the cover, so I changed the accordion to a simple
+      [lightcase.js](https://cornel.bopp-art.com/lightcase/) gallery lightbox.
+
+
+      Below that, we included e-books and audio books by Bookboon. These proved to be super popular - our learners liked reading and listening at their own pace, so our team decided to turn it into a monthly program.
 ctaTitle: Want to learn more?
 ctaBtn: Email Me!
 order: "1"
