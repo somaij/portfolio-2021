@@ -181,9 +181,23 @@ workContent:
 
       The best way of showing what their children will be doing in class is with photographic evidence. The gallery is a preview of a full gallery page, and it generates feelings of trust. I put this at the bottom because the only it's likely some users would reach the bottom of the page without taking an action in search of finding reasons to trust the program.
   - sectionTitle: Prayer Times
-    sectionText: Design and Development wise, this is the section I'm most proud of.
-      In the Islamic Faith, there is a set calendar of prayer times, to the
-      minute, that are determined by the current date range.
+    sectionText: >-
+      Design and Development wise, this is the section I'm most proud of. In the
+      Islamic Faith, there is a set calendar of prayer times, to the minute,
+      that are determined by the current date range. 
+
+
+
+
+      ### Current Month's Prayer Times
+
+
+      The prayer times page shows the current month's time period first, broken into their own sections by period. 
+
+
+
+
+      Unfortunately the times have to be inserted manually, but it's a one time data entry.
 ctaTitle: Questions? I may have answers!
 ctaBtn: Let's Chat
 order: "2"
