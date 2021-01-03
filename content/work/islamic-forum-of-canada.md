@@ -100,11 +100,7 @@ workContent:
       The current version of the homepage shows most of what the mosque offers, without being overwhelming.
 
 
-
-
-      <a href="https://invis.io/J6U7ILKE7AB#/386902438_Home" class="arrow-btn">Full Home Page</a>
-
-
+      <a href="https://invis.io/J6U7ILKE7AB#/386902438_Home" class="arrow-btn">Full Home Page Design</a>
 
 
       ### Masthead
@@ -144,16 +140,13 @@ workContent:
 
 
       This final call to action is sitewide where it makes sense. The usage of the background popping above a darker off-white background really makes it more eye-catching then a regular banner type of CTA.
-
-
-      <a href="https://invis.io/J6U7ILKE7AB#/386902438_Home" class="btn outline">Full Home Page</a>
   - sectionTitle: Madrasah (School)
     sectionText: >-
       This section of the site has a high importance on the success of the
       mosque, and as a result needed to be treated like a secondary homepage. 
 
 
-      <a href="https://invis.io/J6U7ILKE7AB#/386902438_Home" class="arrow-btn">Full Madrasah Page Design</a> 
+      <a href="https://projects.invisionapp.com/share/J6U7ILKE7AB#/screens/387973042" class="arrow-btn">Full Madrasah Page Design</a> 
 
 
       ### Masthead
@@ -177,8 +170,6 @@ workContent:
       The following two sections leans further into their strong imagery, and provides a spot for the team drive home the philosophy that drives their school. I decided to make a single link out to a curriculum page, to restrict information overload.  
 
 
-
-
       ### Gallery
 
 
@@ -191,6 +182,11 @@ workContent:
       Design and Development wise, this is the section I'm most proud of. In the
       Islamic Faith, there is a set calendar of prayer times, to the minute,
       that are determined by the current date range. 
+
+
+      <a href="https://projects.invisionapp.com/share/J6U7ILKE7AB#/screens/392300954" class="arrow-btn">Full Prayer Times Page Design</a> 
+
+
 
 
       ### Current Month's Prayer Times
@@ -209,6 +205,9 @@ workContent:
 
 
       <img class="centered-image height-400" src="/assets/ifc-prayer-all.png"/>
+
+
+      For the rest of the months, they're changed to a table style format. The next upcoming month is opaque, but the rest are somewhat transparent (will become opaque on hover). There's also a sidebar for easy navigation.
 ctaTitle: Questions? I may have answers!
 ctaBtn: Let's Chat
 order: "2"
