@@ -14,12 +14,23 @@ summary-buttons:
     btntext: Invision Design
 glance:
   - image: assets/screen-shot-2020-12-21-at-9.51.52-am.png
-    title: Homepage Design
+    title: Homepage
     description: "The homepage features a lot of peeks into what the mosque's main
       services are. "
     btntext: Skip to Home Design
     btnlink: homepage
     anchor: homepage
+  - image: assets/ifc-prayer-month.png
+    title: Prayer Times
+    description: This normally tabular formatted information was made more digestible.
+    btntext: Skip to Prayer Times Design
+    anchor: prayer-times
+  - image: assets/ifc-madrasah-mast.png
+    title: "School (Madrasah) "
+    description: The Madrasah is the mosque's main source of donations. A secondary
+      homepage was necessary.
+    anchor: madrasah-school
+    btntext: Skip to Madrasah Design
 workContent:
   - sectionTitle: Research
     sectionText: >-
