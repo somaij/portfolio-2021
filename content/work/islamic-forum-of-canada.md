@@ -151,6 +151,43 @@ workContent:
 
 
       This final call to action is sitewide where it makes sense. The usage of the background popping above a darker off-white background really makes it more eye-catching then a regular banner type of CTA.
+  - sectionTitle: Prayer Times
+    sectionText: >-
+      Design and Development wise, this is the section I'm most proud of. In the
+      Islamic Faith, there is a set calendar of prayer times, to the minute,
+      that are determined by the current date range. 
+
+
+      <a href="https://projects.invisionapp.com/share/J6U7ILKE7AB#/screens/392300954" class="arrow-btn">Full Prayer Times Page Design</a> 
+
+
+      ### Current Month's Prayer Times
+
+
+      <img class="centered-image height-400" src="/assets/ifc-prayer-month.png"/>
+
+
+      The prayer times page shows the current month's time period first, broken into their own sections by period. 
+
+
+      ### All Months
+
+
+      <img class="centered-image height-400" src="/assets/ifc-prayer-all.png"/>
+
+
+      For the rest of the months, they're changed to a table style format. The next upcoming month is opaque, but the rest are somewhat transparent (will become opaque on hover). There's also a sidebar for easy navigation.
+
+
+      ### Implementation
+
+
+      Using ACF, the backbone of any WordPress theme I make, I created a Prayer Times repeater field. The field looks like this in the backend editor:
+
+      <img class="centered-image height-400" src="/assets/prayer-times-acf.png"/>
+
+
+      The basic PHP logic is to group the prayer times by month, based on the start time, and create a 2D array. It will then loop over each month and print out a table. If it's the current month, it will be skipped.
   - sectionTitle: Madrasah (School)
     sectionText: >-
       This section of the site has a high importance on the success of the
@@ -188,37 +225,6 @@ workContent:
 
 
       The best way of showing what their children will be doing in class is with photographic evidence. The gallery is a preview of a full gallery page, and it generates feelings of trust. I put this at the bottom because the only it's likely some users would reach the bottom of the page without taking an action in search of finding reasons to trust the program.
-  - sectionTitle: Prayer Times
-    sectionText: >-
-      Design and Development wise, this is the section I'm most proud of. In the
-      Islamic Faith, there is a set calendar of prayer times, to the minute,
-      that are determined by the current date range. 
-
-
-      <a href="https://projects.invisionapp.com/share/J6U7ILKE7AB#/screens/392300954" class="arrow-btn">Full Prayer Times Page Design</a> 
-
-
-
-
-      ### Current Month's Prayer Times
-
-
-      <img class="centered-image height-400" src="/assets/ifc-prayer-month.png"/>
-
-
-      The prayer times page shows the current month's time period first, broken into their own sections by period. 
-
-
-      Unfortunately the times have to be inserted manually, but it's a one time data entry.
-
-
-      ### All Months
-
-
-      <img class="centered-image height-400" src="/assets/ifc-prayer-all.png"/>
-
-
-      For the rest of the months, they're changed to a table style format. The next upcoming month is opaque, but the rest are somewhat transparent (will become opaque on hover). There's also a sidebar for easy navigation.
 ctaTitle: Questions? I may have answers!
 ctaBtn: Let's Chat
 order: "2"
