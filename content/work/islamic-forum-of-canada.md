@@ -153,11 +153,13 @@ workContent:
       mosque, and as a result needed to be treated like a secondary homepage. 
 
 
-
       <a href="https://invis.io/J6U7ILKE7AB#/386902438_Home" class="arrow-btn">Full Madrasah Page Design</a> 
 
 
       ### Masthead
+
+
+      <img class="centered-image height-400" src="/assets/ifc-madrasah-mast.png"/>
 
 
       This was designed to be more traditional in appearance, and get a strong message across that will hopefully encourage the user to enroll their child. There was a lot of strong imagery that the managing team already had, so I chose to lean into that more.
@@ -166,9 +168,10 @@ workContent:
       The Madrasah navigation item has a sub navigation that's always visible when on any page that's related to it.
 
 
-
-
       ### Informational Sections
+
+
+      <img class="centered-image height-400" src="/assets/ifc-mad-content.png"/>
 
 
       The following two sections leans further into their strong imagery, and provides a spot for the team drive home the philosophy that drives their school. I decided to make a single link out to a curriculum page, to restrict information overload.  
@@ -179,6 +182,9 @@ workContent:
       ### Gallery
 
 
+      <img class="centered-image height-400" src="/assets/ifc-gallery.png"/>
+
+
       The best way of showing what their children will be doing in class is with photographic evidence. The gallery is a preview of a full gallery page, and it generates feelings of trust. I put this at the bottom because the only it's likely some users would reach the bottom of the page without taking an action in search of finding reasons to trust the program.
   - sectionTitle: Prayer Times
     sectionText: >-
@@ -187,17 +193,22 @@ workContent:
       that are determined by the current date range. 
 
 
-
-
       ### Current Month's Prayer Times
+
+
+      <img class="centered-image height-400" src="/assets/ifc-prayer-month.png"/>
 
 
       The prayer times page shows the current month's time period first, broken into their own sections by period. 
 
 
-
-
       Unfortunately the times have to be inserted manually, but it's a one time data entry.
+
+
+      ### All Months
+
+
+      <img class="centered-image height-400" src="/assets/ifc-prayer-all.png"/>
 ctaTitle: Questions? I may have answers!
 ctaBtn: Let's Chat
 order: "2"
