@@ -1,6 +1,9 @@
 /**
  * Base SCSS
  */
+svg path{
+	will-change: contents;
+}
  #masthead{
      position: relative;
     .bg {
@@ -65,7 +68,8 @@
 		}
 		span{
 			display: inline-block;
-  transform-origin: 0 0;
+			transform-origin: 0 0;
+			will-change:transform;
 		}
 		@media screen and (max-width:991px){
 			font-size:3rem;
@@ -394,6 +398,7 @@ background-image: url("data:image/svg+xml,%3Csvg width='7.5' height='7.5' viewBo
 		span{
 			display: inline-block;
   transform-origin: 0 0;
+  will-change:transform;
 		}
 	}
 	.sub{
