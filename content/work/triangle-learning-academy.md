@@ -57,7 +57,7 @@ workContent:
       <img src="/assets/new-lil.png" class="centered-image height-400"/> 
 
 
-      The champions section further down on the page, but it actually had more interactivity. A champion is an employee that has submitted a course to be shared to fellow employees. The social nature of this program reigned supreme, and replaced the featured content completely. We also shortened the copy as LinkedIn became more popular, and added in a in-page sticky navbar to let our users jump around the page more easily.
+      The champions section was further down on the page, but it actually had more interactivity. A champion is an employee that has submitted a course to be shared to fellow employees. The social nature of this program reigned supreme, and replaced the featured content completely. We also shortened the copy as LinkedIn became more popular, and added in a in-page sticky navbar to let our users jump around the page more easily.
 
 
       The rest of the page didn't have drastic changes. 
