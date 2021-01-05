@@ -49,9 +49,20 @@ collections:
         fields: 
           - {label: Section Title, name: sectionTitle, widget: string}
           - {label: Section Text, name: sectionText, widget: 'markdown'}    
-      - {label: CTA Title, name: ctaTitle, widget: string}
-      - {label: CTA Text, name: ctaText, widget: text}
-      - {label: CTA Button Text, name: ctaBtn, widget: text}
+      - label: "CTA"
+        name: "cta"
+        widget: "object"
+        fields: 
+          - {label: Title, name: ctaTitle, widget: string}
+          - {label: Text, name: ctaText, widget: text}
+          - {label: "Button Text", name: ctaBtn, widget: text}
+      - label: "SEO"
+        name: "seo"
+        widget: "object"
+        fields: 
+          - {label: Title, name: seoTitle, widget: string}
+          - {label: Description, name: seoDescription, widget: text}
+      
   - name: page
     label: Page
     files:
