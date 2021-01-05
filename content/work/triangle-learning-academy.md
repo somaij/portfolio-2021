@@ -28,7 +28,13 @@ workContent:
       [lightcase.js](https://cornel.bopp-art.com/lightcase/) gallery lightbox.
 
 
-      Below that, we included e-books and audio books by Bookboon. These proved to be super popular - our learners liked reading and listening at their own pace, so our team decided to turn it into a monthly program.
+      <img src="/assets/reads-1.png" class="centered-image height-400"/>
+
+
+      Below that, we included e-books and audio books by Bookboon. These proved to be super popular - our learners liked reading and listening at their own pace, so our team decided to turn it into a monthly program. Later on, it became the main focus of the page, so the order was flipped.
+
+
+      <img src="/assets/reads-2.png" class="centered-image height-400"/>
 ctaTitle: Want to learn more?
 ctaBtn: Email Me!
 order: "1"
