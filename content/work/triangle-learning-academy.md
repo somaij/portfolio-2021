@@ -4,10 +4,11 @@ path: tla
 title: Triangle Learning Academy
 description: UX/UI Developer
 image: assets/tla-2.jpg
-summary: "The Triangle Learning Academy is an internal facing learning platform
+summary: The Triangle Learning Academy is an internal facing learning platform
   for most Canadian Tire, Mark's, FGL (Sportschek), Party City and Partsource
-  employees. It enables them to learn new skills for free from a variety of
-  different sources and materials. "
+  employees. It empowers them to learn new skills that promotes personal and
+  professional growth at no cost from a variety of different sources and
+  materials.
 summary-buttons:
   - btnlink: tla-reads
     btntext: TLA Reads
@@ -37,9 +38,9 @@ workContent:
       <img src="/assets/reads-2.png" class="centered-image height-400"/>
   - sectionTitle: LinkedIn Learning
     sectionText: >-
-      One of our more important pages - the purpose of this one is to guide our
-      users to LinkedIn learning, as well as pique their interest with LinkedIn
-      content. 
+      This page is our landing page for LinkedIn Learning. It gives our users
+      with access to the platform, provides helpful tutorial videos and has
+      suggestions on what courses to check out.
 
 
       ### Header
@@ -48,37 +49,37 @@ workContent:
       <img src="/assets/original-lil.png" class="centered-image height-400"/>
 
 
-      The beautiful header graphic was designed by my colleague, Joe Morris. I integrated it as naturally as possible, leaving the left side to house our main and secondary CTA's. Directly below that is some more copy to convince our users to get on LinkedIn Learning, and featured courses that our team hand-picked.
+      The beautiful header graphic was designed by my colleague, Joe Morris. I integrated it as naturally as possible, leaving the left side to house our main and secondary CTA's. 
 
 
-      However as time went on, we discovered through Google Analytics that most users weren't interacting with our featured content. The page was simplified, and today looks like this instead.
+      Below the masthead, the initial design included copy to convince our learners to use LinkedIn Learning. To the right, the page displayed the "Latest Features", a carousel of courses that the TLA team updated bi-weekly.
+
+
+      However as time went on, we discovered through **Google Analytics** that most users weren't interacting with our featured content. The page was simplified, and today it looks like this instead.
 
 
       <img src="/assets/new-lil.png" class="centered-image height-400"/> 
 
 
-      The champions section was further down on the page, but it actually had more interactivity. A champion is an employee that has submitted a course to be shared to fellow employees. The social nature of this program reigned supreme, and replaced the featured content completely. We also shortened the copy as LinkedIn became more popular, and added in a in-page sticky navbar to let our users jump around the page more easily.
-
-
-      The rest of the page didn't have drastic changes. 
+      In the initial design, the champions section was further down on the page, but it actually had more interactivity than the latest feature carousel. A champion is an employee that has submitted a course to be shared with fellow employees. The social nature of champions being able to share content reigned supreme over the latest features content and replaced it completely. We also shortened the copy as LinkedIn Learning became more popular with our learners, and added an in-page sticky navbar to let our users jump around the page with ease.
 
 
       ### Learning Journeys
 
 
-      The TLA is backed by several deans - high ranking employees from across our brands who collaborate with us. TLA's main purpose is to drive employees to keep learning, and testimonials from our deans about on-going learning help to reinforce that purpose.
+      The TLA is backed by several deans who are high ranking employees from across our brands and collaborate with our team. The TLA's main purpose is to drive employees to keep learning. By using testimonials from our deans about on-going learning, we hope to reinforce that purpose.
 
 
       <img src="/assets/middle-lil.png" class="centered-image height-400"/> 
 
 
-      Below that is another set of points about LinkedIn Learning, in case the user is scrolling the entire page (actually, a number of our users tend to use the CTA at the bottom of the page, surprisingly).
+      As the user scrolls down the page, they'll find a list of benefits to using the LinkedIn Learning platform. Surprisingly, a number of our users were found to use the CTA at the bottom of the page, contrary to the usual heatmap patterns of a webpage. 
 
 
       ### Video Tutorials
 
 
-      If anyone has trouble with LinkedIn Learning, we send them to this spot on the page. We've created some videos on how to use the main aspects of LinkedIn Learning, such as logging in and linking your account, showing certificates, etc.
+      To help our users troubleshoot LinkedIn Learning we send them to our video tutorials. Here, we've created videos on how to get started with the platform. 
 
 
       <img src="/assets/end-lil.png" class="centered-image height-400"/> 
