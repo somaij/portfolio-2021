@@ -85,7 +85,7 @@ workContent:
       <img src="/assets/end-lil.png" class="centered-image height-400"/> 
 
 
-      Also, as noted in the previous section, the bottom CTA is pretty popular.
+      The bottom CTA proves to catch any stragglers, and is notably popular with our users.
 ctaTitle: Want to learn more?
 ctaBtn: Email Me!
 order: "1"
