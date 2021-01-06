@@ -3,7 +3,7 @@ templateKey: work-post
 path: tla
 title: Triangle Learning Academy
 description: UX/UI Developer
-image: assets/lindsay-henwood-7_krux1hsxm-unsplash.jpg
+image: assets/tla-2.jpg
 summary: "The Triangle Learning Academy is an internal facing learning platform
   for most Canadian Tire, Mark's, FGL (Sportschek), Party City and Partsource
   employees. It enables them to learn new skills for free from a variety of
