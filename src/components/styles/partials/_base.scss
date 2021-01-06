@@ -474,6 +474,11 @@ background-image: url("data:image/svg+xml,%3Csvg width='7.5' height='7.5' viewBo
 		padding-top:8rem;
 		padding-bottom:6rem;
 	}
+	&.full{
+		.col-12{
+			height:100vh;
+		}
+	}
 	.content{
 		padding-right:5rem;
 		z-index: 2;

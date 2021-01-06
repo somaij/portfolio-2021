@@ -30,7 +30,7 @@ const WorkPost = ({ data }) => {
     <meta name="description" content={data.markdownRemark.frontmatter.seo.seoDescription} />
     <meta name="og:image" content={data.markdownRemark.frontmatter.image.publicURL} />
   </Helmet>
-      <div id="work-header">
+      <div id="work-header" class={!(data.markdownRemark.frontmatter.workContent) && "full"}>
       <div class="blob">
             <Anime
       initial={[
@@ -82,8 +82,10 @@ const WorkPost = ({ data }) => {
 /></div>
 
       </div>
+      {data.markdownRemark.frontmatter.workContent && 
       <div id="work-main">
       <div className="container">
+        <div>
         <div className="row text-center">
           <div className="col-12"><h2>At a Glance</h2></div>
         </div>
@@ -103,6 +105,7 @@ const WorkPost = ({ data }) => {
           </div>
           ])}
         </div>
+        </div>
           <div className="row">
             <div className="col-12 col-md-3 col-lg-2 sidebar">
             {data.markdownRemark.frontmatter.workContent.map((section, i) => [
@@ -121,7 +124,8 @@ const WorkPost = ({ data }) => {
           </div>
       </div>
     </div>
-    <div id="work-cta" class="end-cta">
+}
+    <div id="work-cta" class={(data.markdownRemark.frontmatter.workContent) ? "end-cta" : "end-cta full"}>
     <div class="blob">
             <Anime
       initial={[
