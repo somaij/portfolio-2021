@@ -86,6 +86,12 @@ workContent:
 
 
       The bottom CTA proves to catch any stragglers, and is notably popular with our users.
+  - sectionTitle: Quarterly Offerings
+    sectionText: In 2020, we organized our content by certain themes that change
+      every quarter. In Q1, it was Adaptability, and in Q4 the theme was DIB. In
+      service to this theme, we created what we call "Quarterly Offerings". It
+      is a page that contains every course, resource and workshop that relates
+      to the theme of the quarter that we recommend checking out.
 ctaTitle: Want to learn more?
 ctaBtn: Email Me!
 order: "1"
