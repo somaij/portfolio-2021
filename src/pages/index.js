@@ -313,9 +313,7 @@ const IndexPage = ({ data }) => {
             <h2>Blog</h2>
           </div>
         </div>
-        <div class="row">
-        <BlogRoll count="1"/>
-        </div>
+        <BlogRoll/>
       </div>
       </div>
       <div id="contact">

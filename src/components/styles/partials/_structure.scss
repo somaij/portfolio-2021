@@ -45,6 +45,9 @@ footer {
 		padding-left:30px;
 		padding-right:30px;
 	}
+	@media screen and (min-width:1920px){
+		max-width:1500px;
+	}
 }
 
 #not-found-page {
@@ -713,6 +716,13 @@ footer {
 		right:150px;
 		margin:auto;
 		overflow:hidden;
+		
+		@media screen and (min-width:1920px){
+			right:15%;
+		}
+		@media screen and (min-width:2560px){
+			right:25%;
+		}
 		@media screen and (max-width:1499px){
 			right:0;
 		}
