@@ -87,11 +87,48 @@ workContent:
 
       The bottom CTA proves to catch any stragglers, and is notably popular with our users.
   - sectionTitle: Quarterly Offerings
-    sectionText: In 2020, we organized our content by certain themes that change
-      every quarter. In Q1, it was Adaptability, and in Q4 the theme was DIB. In
-      service to this theme, we created what we call "Quarterly Offerings". It
-      is a page that contains every course, resource and workshop that relates
-      to the theme of the quarter that we recommend checking out.
+    sectionText: >-
+      In 2020, we organized our content by certain themes that change every
+      quarter. In Q1, it was Adaptability, and in Q4 the theme was DIB. In
+      service to this theme, we created what we call "Quarterly Offerings".
+      These pages contain every course, resource and workshop that relates to
+      the theme of the quarter that the TLA recommends. 
+
+
+      In order to serve that much content in a digestible way, I first sketched out some possibilities, and prototyped them with the team. After a number of rounds of feedback and refinement, while deepening my understanding of the issue, I decided to use cards as the basis for the page.
+
+
+      <img src="/assets/cards-1.png" class="centered-image height-400"/>
+
+
+      Each card has certain characteristics that describe what the user is clicking on, in a short amount of space.
+
+
+      1. An **icon** to represent the type of modality the resource is in, followed by the text for that modality. The icons are from the [Unicons](https://iconscout.com/unicons) set.
+
+      2. The **title** of the resource.
+
+      3. A short **description** about the resource. There was a bit of a UI challenge to fit enough space in for the description to be accurate.
+
+      4. The **action** that the user will be doing to consume the resource. 
+
+
+      A card would belong to a section of the page.
+
+
+      <img src="/assets/sub-cat.png" class="centered-image height-400"/>
+
+
+      Each section would have a title and background image. The text was removed later on the sake of simplicity. The cards that belong to the section overlap onto the background image to denote that this set of cards belongs to the section's header.
+
+
+      The layout around the sections served to guide the user to content on the page.
+
+
+      <img src="/assets/content-offerings-1.png" class="centered-image height-400"/>
+
+
+      The sticky sidebar uses the intersection observer to highlight the section of the page that's in the viewport.
 ctaTitle: Want to learn more?
 ctaBtn: Email Me!
 order: "1"
