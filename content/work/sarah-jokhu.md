@@ -3,7 +3,7 @@ templateKey: work-post
 path: sarah-jokhu
 title: Sarah Jokhu
 description: UX/UI Design and Dev
-image: assets/blog-background.jpg
+image: assets/sj.png
 summary: This small site was something I wanted to build to be easily
   maintainable and super unique for my fiancé. I used Github Pages to host a
   single HTML document. It's a unique design that features a colour changing
