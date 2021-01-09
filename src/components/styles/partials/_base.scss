@@ -439,9 +439,9 @@ background-image: url("data:image/svg+xml,%3Csvg width='7.5' height='7.5' viewBo
 			top:-6rem;
 			left:-2rem;
 			margin:auto;
-			@media screen and (min-width:1920px){
+			@media screen and (min-height:1080px){
 				left:0;
-				top:-50%;
+				top:25%;
 			}
 			@media screen and (max-width:991px){
 				width:800px;
