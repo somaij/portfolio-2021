@@ -241,7 +241,7 @@ background-image: url("data:image/svg+xml,%3Csvg width='7.5' height='7.5' viewBo
 			flex-direction: column;
 		}
 		.image {
-			width:75%;
+			width:50%;
 			height:500px;
 			top: -10%;
 			left:-10%;
@@ -252,7 +252,13 @@ background-image: url("data:image/svg+xml,%3Csvg width='7.5' height='7.5' viewBo
 				width: 100%;
 				top: 0;
 				left:0;
-				height:250px
+				height:350px;
+				img{
+					object-position: 25% 20% !important;
+				}
+			}
+			@media screen and (max-width:575px){
+				height:250px;
 			}
 			.gatsby-image-wrapper{
 				height: 100% !important;
