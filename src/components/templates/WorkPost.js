@@ -69,10 +69,7 @@ const WorkPost = ({ data }) => {
             <div className="sub">{data.markdownRemark.frontmatter.description}</div>
             <h1>{data.markdownRemark.frontmatter.title}</h1>
             <div className="regular-text"><ReactMarkdown>{data.markdownRemark.frontmatter.summary}</ReactMarkdown></div>
-            {data.markdownRemark.frontmatter.summary_buttons.map((button, i) => [
-            <a key={i} id={"btn-" + i} href={button.btnlink}>{button.btntext}
-          </a>
-          ])}
+            {data.markdownRemark.frontmatter.summary_buttons && data.markdownRemark.frontmatter.summary_buttons.map((button, i) => [<a key={i} id={"btn-" + i} href={button.btnlink}>{button.btntext}</a>])}
             </div>
           </div>
         </div>
