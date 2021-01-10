@@ -9,9 +9,7 @@ summary: The Triangle Learning Academy is an internal-facing learning platform
   employees. It empowers them to learn new skills that promote personal and
   professional growth at no cost from a variety of different sources and
   materials.
-summary-buttons:
-  - btnlink: tla-reads
-    btntext: TLA Reads
+summary-buttons: []
 glance:
   - image: assets/content-offerings-1.png
     title: Quarterly Offerings
