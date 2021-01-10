@@ -16,9 +16,9 @@ seo:
 ---
 ## Design
 
-I am on team Figma, 100% of the way. [Here's my design](https://www.figma.com/proto/dw0UB2bWREjaNxY5NWgn5X/Portfolio-2021?node-id=1%3A2&viewport=321%2C523%2C0.4156603515148163&scaling=scale-down-width)
+I am on team Figma, 100% of the way. [Here's my design](https://www.figma.com/proto/dw0UB2bWREjaNxY5NWgn5X/Portfolio-2021?node-id=1%3A2&viewport=321%2C523%2C0.4156603515148163&scaling=scale-down-width).
 
-The final website and the design have a fair amount of differences. Being the design, developer and stakeholder meant I could change things on the fly as I had innovative ideas, such as adding more blobs to everything, creating a call to action on each page, adjusting the contact section, etc.
+The final website and the design have a fair amount of differences. Being the designer, developer and only stakeholder meant I could change things on the fly as I had innovative ideas, such as adding more blobs to everything, creating a call to action on each page, adjusting the contact section, etc.
 
 If you want a cool comparison to my previous design language, you can check out my [old website](https://nostalgic-bohr-935b8b.netlify.app/), first made before attending any UX courses, or having a design mentor. Learning from others and taking feedback seriously is the only way to see improvements this quickly.
 
