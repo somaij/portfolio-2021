@@ -4,7 +4,7 @@ path: how-did-i-make-this-site
 date: 2021-01-10T22:54:06.524Z
 title: How'd I make this site?
 description: Here's everything that I did to create this version of my site.
-image: assets/tudor-baciu-vc3ivl_znj8-unsplash.jpg
+image: assets/blake-connally-ikuygcfmfw4-unsplash.jpg
 cta:
   ctaTitle: Need help with your own personal website?
   ctaText: I'd be more than happy to help guide you and to provide some feedback.
