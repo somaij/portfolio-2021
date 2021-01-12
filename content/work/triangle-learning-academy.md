@@ -26,7 +26,7 @@ glance:
     btntext: Skip to TLA Reads
   - image: assets/new-lil.png
     title: LinkedIn Learning
-    anchor: linkedin-learning
+    anchor: linkedin-learninga
     btntext: Skip to LinkedIn Learning
     description: A fun design with numerious changes based on Google Analytics data.
 workContent:
