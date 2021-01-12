@@ -77,6 +77,14 @@ module.exports = {
         icon: `src/images/favicon-starter.png`, // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: `gatsby-plugin-hotjar`,
+      options: {
+        includeInDevelopment: true, // optional parameter to include script in development
+        id: 2193052,
+        sv: 6,
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
