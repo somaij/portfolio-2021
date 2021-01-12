@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 path: cf7
-date: 2020-12-26T17:52:59.464Z
+date: 2019-01-24T17:52:59.464Z
 title: How to do floating labels for CF7
 description: If you have a large Contact Form 7 form, this is a great way to
   unclutter your page.
