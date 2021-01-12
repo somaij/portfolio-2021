@@ -35,3 +35,5 @@ I followed this [super useful tutorial](https://medium.com/frontend-digest/how-t
 I wanted this website to feel fluid and constantly shifting, and I knew animating SVGs would help accomplish that feel. I searched codepen.io for some inspiration, and I found [this amazing pen](https://codepen.io/louden/pen/rpQOKx) using Anime.js. I was instantly hooked and I decided that it would be the basis for my new site. Recreating the effect in React, using an Anime.js component was a major learning moment for me. The transforming blob shapes started to proliferate through all of the pages (hopefully not too much), and I made use of the [blobs.app](https://blobs.app/) website for all of my shapes.
 
 After a lot of growth, experimentation, and challenging myself, I have a website that I'm finally proud of.
+
+*[Photo by Blake Connally](https://unsplash.com/photos/IKUYGCFmfw4)*.
