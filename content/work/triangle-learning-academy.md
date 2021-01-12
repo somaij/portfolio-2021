@@ -1,5 +1,6 @@
 ---
 templateKey: work-post
+order: "1"
 path: tla
 title: Triangle Learning Academy
 description: UX/UI Developer
@@ -128,7 +129,7 @@ workContent:
       <img src="/assets/original-lil.png" class="centered-image height-400"/>
 
 
-      The beautiful header graphic was designed by my colleague, Joe Morris. I integrated it as naturally as possible, leaving the left side to house our main and secondary CTA's. 
+      The beautiful header graphic was designed by one of my colleagues. I integrated it as naturally as possible, leaving the left side to house our main and secondary CTA's. 
 
 
       Below the masthead, the initial design included copy to convince our learners to use LinkedIn Learning. To the right, the page displayed the "Latest Features", a carousel of courses that the TLA team updated bi-weekly.
@@ -167,7 +168,6 @@ workContent:
       The bottom CTA proves to catch any stragglers and is notably popular with our users.
 ctaTitle: Want to learn more?
 ctaBtn: Email Me!
-order: "1"
 cta:
   ctaTitle: Like my work?
   ctaText: Connect and we can discuss UX!
