@@ -1,14 +1,14 @@
 ---
 templateKey: blog-post
 path: free-wp-theme
-date: 2020-12-30T04:43:22.722Z
+date: 2019-03-22T03:43:22.722Z
+title: Shapely - An easy to use theme
+description: Here's a free WordPress theme I can easily recommend.
+image: assets/laptop-from-side.jpg
 cta:
   ctaTitle: Need help with your website?
   ctaText: Maybe I can point you in the right direction.
   ctaBtn: Email Now
-title: Shapely - An easy to use theme
-description: Here's a free WordPress theme I can easily recommend.
-image: assets/laptop-from-side.jpg
 seo:
   seoTitle: Shapely - a Good Free WordPress Theme | Jason Somai
   seoDescription: If you're looking to set up a basic WordPress website without
