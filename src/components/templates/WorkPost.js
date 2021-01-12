@@ -185,7 +185,7 @@ export const WorkPostTemplateQuery = graphql`
         summary
         summary_buttons{
           btntext
-          anchor
+          btnlink
         }
         glance{
           title
@@ -198,7 +198,7 @@ export const WorkPostTemplateQuery = graphql`
             }
           }
           btntext
-          btnlink
+          anchor
         }
         workContent{
           sectionText
