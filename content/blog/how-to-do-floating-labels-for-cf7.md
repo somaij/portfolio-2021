@@ -104,4 +104,4 @@ left: 30px;
 
 Now you'll have some great form UX that will be sure to please the eye!
 
-*Photo by [Nicole De Khors](https://burst.shopify.com/@ndekhors?utm_campaign=photo_credit&utm_content=Free+Stock+Photo+of+Mobile+Contact+Us+Form+%E2%80%94+HD+Images&utm_medium=referral&utm_source=credit)*
+[Photo by Nicole De Khors](https://burst.shopify.com/@ndekhors?utm_campaign=photo_credit&utm_content=Free+Stock+Photo+of+Mobile+Contact+Us+Form+%E2%80%94+HD+Images&utm_medium=referral&utm_source=credit)
