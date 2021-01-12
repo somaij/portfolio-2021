@@ -16,7 +16,7 @@ seo:
 ---
 ## Design
 
-I am on team Figma, 100% of the way. [Here's my design](https://www.figma.com/proto/dw0UB2bWREjaNxY5NWgn5X/Portfolio-2021?node-id=1%3A2&viewport=321%2C523%2C0.4156603515148163&scaling=scale-down-width).
+Figma is my absolute favorite design tool. <a href="https://www.figma.com/proto/dw0UB2bWREjaNxY5NWgn5X/Portfolio-2021?node-id=1%3A2&viewport=321%2C523%2C0.4156603515148163&scaling=scale-down-width" class="arrow-btn">Here's my design</a>
 
 The final website and the design have a fair amount of differences. Being the designer, developer and only stakeholder meant I could change things on the fly as I had innovative ideas, such as adding more blobs to everything, creating a call to action on each page, adjusting the contact section, etc.
 
