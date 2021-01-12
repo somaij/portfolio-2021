@@ -16,17 +16,17 @@ glance:
     title: Quarterly Offerings
     description: A major UX/UI and development challenge that I overcame with
       iterating, experimentation, and tracking.
-    anchor: quarterly
+    anchor: quarterly-offerings
     btntext: Skip to Quarterly Offerings
   - image: assets/reads-1.png
     title: TLA Reads
     description: The TLA Reads page showcases our picks of e-books and audiobooks
       for the month. This program is pretty popular with our users.
-    anchor: tla
+    anchor: tla-reads
     btntext: Skip to TLA Reads
   - image: assets/new-lil.png
     title: LinkedIn Learning
-    anchor: linkedin
+    anchor: linkedin-learning
     btntext: Skip to LinkedIn Learning
     description: A fun design with numerious changes based on Google Analytics data.
 workContent:
