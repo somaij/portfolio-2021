@@ -49,4 +49,4 @@ Oh, and before you go, here's a list of plugins I think are **essential**. They
 
 [Get in touch](https://jasonsomai.com/contact) if you need anything cleared up! I'll be happy to help out.
 
-*[Photo](https://burst.shopify.com/photos/laptop-from-side?q=computer) by Matthew Henry from Burst*.
+[Photo by Matthew Henry](https://burst.shopify.com/photos/laptop-from-side?q=computer).
