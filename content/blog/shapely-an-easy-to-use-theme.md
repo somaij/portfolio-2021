@@ -45,7 +45,6 @@ Oh, and before you go, here's a list of plugins I think are **essential**. They
 
 * [Yoast SEO](https://en-ca.wordpress.org/plugins/wordpress-seo/) - You need to control how your search results show up on Google. It's important!
 * [WP Smush](https://en-ca.wordpress.org/plugins/wp-smushit/) - Decreases image size automatically. Smaller images = faster site.
-* [Wordfence](https://en-ca.wordpress.org/plugins/wordfence/) - The bad thing about WordPress is that when left unchecked it becomes open to vulnerabilites. But Wordfence should help with that.
-
+* [Wordfence](https://en-ca.wordpress.org/plugins/wordfence/) - The bad thing about WordPress is that when left unchecked it becomes open to vulnerabilities. But Wordfence should help with that.
 
 [Photo by Matthew Henry](https://burst.shopify.com/photos/laptop-from-side?q=computer).
