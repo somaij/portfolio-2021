@@ -202,8 +202,12 @@ workContent:
       2. Pricing information is readily available, and it notifies if a route is presto only.
 
       3. It will notify and provide alternative **walking** routes when there is a delay.
-         I came away from the course with a greater understand of how to produce a better user experience. I learned how to throw away my ego when being critiqued. How to stay silent and provide not provide answers during user testing. When and how to prod for knowledge the interviewee thought was common sense.
-         Industry professionals [Gerard Dolan](https://www.linkedin.com/in/gerarddolan/) and [David Aboutboul](https://www.linkedin.com/in/david-aboutboul/) taught our class invaluable life and career lessons. I hope to carry a design thinking approach to everything that I do henceforth.
+
+
+      I came away from the course with a greater understand of how to produce a better user experience. I learned how to throw away my ego when being critiqued. How to stay silent and provide not provide answers during user testing. When and how to prod for knowledge the interviewee thought was common sense.
+
+
+      Industry professionals [Gerard Dolan](https://www.linkedin.com/in/gerarddolan/) and [David Aboutboul](https://www.linkedin.com/in/david-aboutboul/) taught our class invaluable life and career lessons. I hope to carry a design thinking approach to everything that I do henceforth.
 ctaTitle: Let's Talk
 ctaBtn: Connect
 cta:
