@@ -47,6 +47,5 @@ Oh, and before you go, here's a list of plugins I think are **essential**. They
 * [WP Smush](https://en-ca.wordpress.org/plugins/wp-smushit/) - Decreases image size automatically. Smaller images = faster site.
 * [Wordfence](https://en-ca.wordpress.org/plugins/wordfence/) - The bad thing about WordPress is that when left unchecked it becomes open to vulnerabilites. But Wordfence should help with that.
 
-[Get in touch](https://jasonsomai.com/contact) if you need anything cleared up! I'll be happy to help out.
 
 [Photo by Matthew Henry](https://burst.shopify.com/photos/laptop-from-side?q=computer).
