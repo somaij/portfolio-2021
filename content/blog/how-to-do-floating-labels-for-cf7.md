@@ -87,14 +87,14 @@ jQuery(document).ready(function($) { //no conflict
 Add a little bit of CSS and you're all set:
 
 ```
-.wpcf7 .element-wrapper > label {
+.wpcf7 .text-wrapper > label {
 position: absolute;
 top: 1rem;
 left: 30px;
 transition: all .1s ease-in-out;
 z-index: 1;
 }
-.wpcf7 .element-wrapper > label.move {
+.wpcf7 .text-wrapper > label.move {
 opacity: .4;
 font-size: 10px;
 top: 10px;
