@@ -81,7 +81,7 @@ jQuery(document).ready(function($) { //no conflict
             $(this).parent().siblings("label").removeClass("move");
         }
     });
-    var labelID; //On label click, activate the textbox
+    var labelID; //On label click, using the for attribute, activate the input.
     $('label').click(function () {
       labelID = $(this).attr('for');
       $('#' + labelID).trigger('click');
