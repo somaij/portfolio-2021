@@ -63,29 +63,36 @@ Using Google-Fu, I came up with an easy solution. Since in jQuery you can do a p
 
 ```
 jQuery(document).ready(function($) { //no conflict
-    $("input, textarea").each(function() {
-        if ($(this).val().length != 0) { //In case there is a preloaded value
-
-            $(this).parent().siblings("label").addClass("move");
-        } else {
-            $(this).parent().siblings("label").removeClass("move");
-        }
-    });
-    $("input, textarea").focus(function() { //On focus move the label
-
+  
+  //On input focus move the label
+  $("input, textarea").focus(function() { 
         $(this).parent().siblings("label").addClass("move");
-    });
-    $("input, textarea").focusout(function() { 
-//On focusout check if there is any value, else remove the move class.
-        if ($(this).val().length == 0) {
-            $(this).parent().siblings("label").removeClass("move");
-        }
-    });
-    var labelID; //On label click, using the for attribute, activate the input.
-    $('label').click(function () {
-      labelID = $(this).attr('for');
-      $('#' + labelID).trigger('click');
-    });
+  });
+  
+  //On focusout check if there is a value, else remove the .move class.
+  $("input, textarea").focusout(function() { 
+    if ($(this).val().length == 0) {
+        $(this).parent().siblings("label").removeClass("move");
+    }
+  });
+  
+  //If the user clicks on the label itself, activate the corresponding input.
+  var labelID; 
+  $('label').click(function () {
+    labelID = $(this).attr('for');
+    $('#' + labelID).trigger('click');
+  });
+  
+  //In case there is a prefill value
+  $("input, textarea").each(function() {
+      if ($(this).val().length != 0) { 
+          $(this).parent().siblings("label").addClass("move");
+      } 
+      else {
+          $(this).parent().siblings("label").removeClass("move");
+      }
+  });
+  
 });
 ```
 
