@@ -81,24 +81,36 @@ jQuery(document).ready(function($) { //no conflict
             $(this).parent().siblings("label").removeClass("move");
         }
     });
+    var labelID; //On label click, activate the textbox
+    $('label').click(function () {
+      labelID = $(this).attr('for');
+      $('#' + labelID).trigger('click');
+    });
 });
 ```
 
 Add a little bit of CSS and you're all set:
 
 ```
-.wpcf7 .text-wrapper > label {
-position: absolute;
-top: 1rem;
-left: 30px;
-transition: all .1s ease-in-out;
-z-index: 1;
+.wpcf7 .text-wrapper input[type=text]{
+  -webkit-box-sizing: content-box; 
+  box-sizing: content-box;
+  padding: 0.8rem 0.4rem 0.4rem;
 }
+
+.wpcf7 .text-wrapper > label {
+  position: absolute;
+  top: 1rem;
+  left: 30px;
+  transition: all .1s ease-in-out;
+  z-index: 1;
+}
+
 .wpcf7 .text-wrapper > label.move {
-opacity: .4;
-font-size: 10px;
-top: 10px;
-left: 30px;
+  opacity: .4;
+  font-size: 10px;
+  top: 10px;
+  left: 30px;
 }
 ```
 
