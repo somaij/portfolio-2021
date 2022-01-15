@@ -15,7 +15,7 @@ class WorkRoll extends React.Component {
           posts.map(({ node: post }, i) => (
             <div 
             
-            className={i === 0 || i === 1 ? 'col-12 col-sm-6 col-xl-5' : 'col-12 col-sm-6 col-lg-4 col-xl-5'} id={i}>
+            className={i === 0 || i === 1 ? 'col-12 col-sm-6 col-xl-5' : 'col-12 col-sm-6 col-xl-5'} id={i}>
               <Link to={"/work" + post.fields.slug} className="work-preview">
                   {post.frontmatter.image ? (
                     <div className="image">
