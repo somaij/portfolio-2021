@@ -63,42 +63,61 @@ Using Google-Fu, I came up with an easy solution. Since in jQuery you can do a p
 
 ```
 jQuery(document).ready(function($) { //no conflict
-    $("input, textarea").each(function() {
-        if ($(this).val().length != 0) { //In case there is a preloaded value
-
-            $(this).parent().siblings("label").addClass("move");
-        } else {
-            $(this).parent().siblings("label").removeClass("move");
-        }
-    });
-    $("input, textarea").focus(function() { //On focus move the label
-
+  
+  //On input focus move the label
+  $("input, textarea").focus(function() { 
         $(this).parent().siblings("label").addClass("move");
-    });
-    $("input, textarea").focusout(function() { 
-//On focusout check if there is any value, else remove the move class.
-        if ($(this).val().length == 0) {
-            $(this).parent().siblings("label").removeClass("move");
-        }
-    });
+  });
+  
+  //On focusout check if there is a value, else remove the .move class.
+  $("input, textarea").focusout(function() { 
+    if ($(this).val().length == 0) {
+        $(this).parent().siblings("label").removeClass("move");
+    }
+  });
+  
+  //If the user clicks on the label itself, activate the corresponding input.
+  var labelID; 
+  $('label').click(function () {
+    labelID = $(this).attr('for');
+    $('#' + labelID).trigger('click');
+  });
+  
+  //In case there is a prefill value
+  $("input, textarea").each(function() {
+      if ($(this).val().length != 0) { 
+          $(this).parent().siblings("label").addClass("move");
+      } 
+      else {
+          $(this).parent().siblings("label").removeClass("move");
+      }
+  });
+  
 });
 ```
 
 Add a little bit of CSS and you're all set:
 
 ```
-.wpcf7 .element-wrapper > label {
-position: absolute;
-top: 1rem;
-left: 30px;
-transition: all .1s ease-in-out;
-z-index: 1;
+.wpcf7 .text-wrapper input[type=text]{
+  -webkit-box-sizing: content-box; 
+  box-sizing: content-box;
+  padding: 0.8rem 0.4rem 0.4rem;
 }
-.wpcf7 .element-wrapper > label.move {
-opacity: .4;
-font-size: 10px;
-top: 10px;
-left: 30px;
+
+.wpcf7 .text-wrapper > label {
+  position: absolute;
+  top: 1rem;
+  left: 30px;
+  transition: all .1s ease-in-out;
+  z-index: 1;
+}
+
+.wpcf7 .text-wrapper > label.move {
+  opacity: .4;
+  font-size: 10px;
+  top: 10px;
+  left: 30px;
 }
 ```
 

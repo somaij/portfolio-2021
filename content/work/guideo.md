@@ -1,5 +1,6 @@
 ---
 templateKey: work-post
+order: "3"
 path: guideo
 title: Guideo
 description: UX/UI Design
@@ -24,21 +25,21 @@ glance:
       prototype with. My classmates tested my user flows with these.
     btnlink: user-flows-&-sketches
     btntext: Skip to Sketches
-    anchor: "#user-flows-sketches"
+    anchor: user-flows-sketches
   - image: assets/wireframe.png
     title: Final Prototype
     description: The final low fidelity wireframe was made in Moqups. It’s fully
       interactive with hotspots to click on and navigate through the prototype.
     btnlink: wireframe
     btntext: Skip to Wireframe
-    anchor: "#wireframe"
+    anchor: wireframe
   - title: Presentation
     description: "The final presentation was the culmination of everything we had
       done during the 5 week bootcamp. "
     btnlink: presentation
     btntext: Skip to Presentation
     image: assets/final-pres.png
-    anchor: "#presentation"
+    anchor: presentation
 workContent:
   - sectionTitle: Research
     sectionText: >-
@@ -201,11 +202,14 @@ workContent:
       2. Pricing information is readily available, and it notifies if a route is presto only.
 
       3. It will notify and provide alternative **walking** routes when there is a delay.
-         I came away from the course with a greater understand of how to produce a better user experience. I learned how to throw away my ego when being critiqued. How to stay silent and provide not provide answers during user testing. When and how to prod for knowledge the interviewee thought was common sense.
-         Industry professionals [Gerard Dolan](https://www.linkedin.com/in/gerarddolan/) and [David Aboutboul](https://www.linkedin.com/in/david-aboutboul/) taught our class invaluable life and career lessons. I hope to carry a design thinking approach to everything that I do henceforth.
+
+
+      I came away from the course with a greater understand of how to produce a better user experience. I learned how to throw away my ego when being critiqued. How to stay silent and provide not provide answers during user testing. When and how to prod for knowledge the interviewee thought was common sense.
+
+
+      Industry professionals [Gerard Dolan](https://www.linkedin.com/in/gerarddolan/) and [David Aboutboul](https://www.linkedin.com/in/david-aboutboul/) taught our class invaluable life and career lessons. I hope to carry a design thinking approach to everything that I do henceforth.
 ctaTitle: Let's Talk
 ctaBtn: Connect
-order: "3"
 cta:
   ctaBtn: Contact Me!
   ctaTitle: Let's Talk
