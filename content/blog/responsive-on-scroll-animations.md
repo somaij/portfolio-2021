@@ -78,7 +78,7 @@ but not on mobile
 And your CSS would look like this:
 
 ```
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 768px) {
 	.fade-left-desktop{
 		opacity: 0;
 		transition: 1500ms all ease-in-out;
@@ -90,7 +90,7 @@ And your CSS would look like this:
 	}
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 767px) {
 	.fade-up-mobile {
 		opacity: 0;
 		transition: 1500ms all ease-in-out;
@@ -115,7 +115,7 @@ Another scenario is delaying divs on desktop, but not wanting them to be delayed
 <div class="fade-up-desktop fade-mobile animation stagger-desktop-2">Delayed 600ms</div>
 
 <style>
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 768px) {
 	.fade-up-desktop {
 		opacity: 0;
 		transition: 1500ms all ease-in-out;
@@ -133,7 +133,7 @@ Another scenario is delaying divs on desktop, but not wanting them to be delayed
 	}
 
 }
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 767px) {
 	.fade-mobile {
 		opacity: 0;
 		transition: 1000ms all ease-in-out;
