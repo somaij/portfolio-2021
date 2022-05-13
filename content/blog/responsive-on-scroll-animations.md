@@ -23,6 +23,7 @@ Sometimes your environment may be so locked down that you can’t use an externa
 ## Using the Intersection Observer (obviously)
 
 ```
+<script>
 // Reverted back to non-arrow functions because it would break IE11 completely.
 
 var observer = new IntersectionObserver(
@@ -43,17 +44,20 @@ document.querySelectorAll(".animation").forEach(function (i) {
 		observer.observe(i);
 	}
 });
+</script>
 ```
 
 As shown above, the code is fairly standard use of the intersection observer, except translated to not use arrow functions for maximum compatibility (arrow functions basically break IE11).
 
-I’ve add a class called “animation” to all elements I want to animate. When the intersection observer picks up an element with the .animation class in the viewport, it assigns an “animate” class. Fairly simple. 
+I’ve added a class called **"animation"** to all elements I want to animate. When the intersection observer picks up an element with the **.animation** class in the viewport, it assigns an **"animate"** class. Fairly simple. 
 
-Using this method allows you to have pre and post visibility css selectors. For example:
+With this method, you'll have access to pre and post visibility css selectors. For example:
 
 ```
+<style>
 .fade{ opacity:0; transition 1500ms all ease-in-out; } /* Pre animation */
-.fade.animate{ opacity 1; }
+.fade.animate{ opacity 1; } /* Animation triggered state */
+</style>
 ```
 
 Now, all you need to write in HTML is:
@@ -66,7 +70,7 @@ You should have a div that fades in on scroll. Neat!
 
 ## Now for responsive
 
-The cool thing about this setup is that you can assign multiple animations to a div. You can have a div like this:
+The cool thing about this setup is that you can assign multiple viewport state animations to a div. You can have a div like this:
 
 ```
 <div class="animation fade-left-desktop fade-up-mobile">
@@ -78,6 +82,10 @@ but not on mobile
 And your CSS would look like this:
 
 ```
+<style>
+/* Using min and max width media queries
+to not have overlapping states. */
+
 @media screen and (min-width: 768px) {
 	.fade-left-desktop{
 		opacity: 0;
@@ -101,13 +109,14 @@ And your CSS would look like this:
 		transform: translateY(0);
 	}
 }
+</style>
 ```
 
-You don’t even have to write javascript! 
+You don’t even have to write more JavaScript! 
 
 ## And... you can even delay animations
 
-Another scenario is delaying divs on desktop, but not wanting them to be delayed on mobile.
+Another scenario is delaying divs on desktop, but not delayed on mobile.
 
 ```
 <div class="fade-up-desktop fade-mobile animation">Delayed 300ms</div>
@@ -145,9 +154,9 @@ Another scenario is delaying divs on desktop, but not wanting them to be delayed
 </style>
 ```
 
-This is so useful for changing the timing on elements as your viewport size changes. This was a major problem I ran into with AOS.js.
+This is so useful for **changing the timing on elements as your viewport size changes**. This was a major problem I ran into with **AOS.js**.
 
-You’ll also notice that I’m sticking to relative positioning, and using CSS transforms to do the animation This doesn’t break any preexisting DOM or cause layout shifts as the element didn’t actually change position.
+You’ll also notice that I’ve stuck to **relative** positioning, and using CSS transforms to do the animations. This doesn’t break any preexisting DOM or cause layout shifts as the element aren't changing position.
 
 Here is a pen that you can scroll and see all of this in effect. You’ll also notice there’s a grow animation that can lead to some interesting combinations.
 
