@@ -4,7 +4,7 @@ path: responsive-animations
 date: 2022-05-13T16:36:05.875Z
 title: Responsive On-Scroll Animations
 description: Using the intersection observer and some CSS magic!
-image: assets/daniel-korpai-pkrnxegurgm-unsplash.jpg
+image: assets/daniel-korpai-pkrnxegurgm-unsplash-overlay.jpg
 cta:
   ctaTitle: Having Trouble?
   ctaText: I can help point you in the right direction.
