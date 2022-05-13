@@ -41,7 +41,6 @@ document.querySelectorAll(".animation").forEach(function (i) {
 		observer.observe(i);
 	}
 });
-
 ```
 
 As shown above, the code is fairly standard use of the intersection observer, except translated to not use arrow functions for maximum compatibility (arrow functions basically break IE11).
@@ -97,7 +96,6 @@ And your CSS would look like this:
 		transform: translateY(0);
 	}
 }
-
 ```
 
 You don’t even have to write javascript! 
@@ -148,9 +146,8 @@ You’ll also notice that I’m sticking to relative positioning, and using CSS 
 
 Here is a pen that you can scroll and see all of this in effect. You’ll also notice there’s a grow animation that can lead to some interesting combinations.
 
-<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="MWQgPRY" data-user="jsomai" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/jsomai/pen/MWQgPRY">
+<iframe height="500" style="width: 100%;" scrolling="no" title="Easy On Scroll Responsive Animations" src="https://codepen.io/jsomai/embed/MWQgPRY?default-tab=result&theme-id=dark" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/jsomai/pen/MWQgPRY">
   Easy On Scroll Responsive Animations</a> by Jason Somai (<a href="https://codepen.io/jsomai">@jsomai</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
