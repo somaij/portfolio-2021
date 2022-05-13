@@ -69,7 +69,10 @@ You should have a div that fades in on scroll. Neat!
 The cool thing about this setup is that you can assign multiple animations to a div. You can have a div like this:
 
 ```
-<div class="animation fade-left-desktop fade-up-mobile">Thing that looks good fading in from the left on desktop, but not on mobile</div>
+<div class="animation fade-left-desktop fade-up-mobile">
+Thing that looks good fading in from the left on desktop, 
+but not on mobile
+</div>
 ```
 
 And your CSS would look like this:
