@@ -104,7 +104,7 @@ You don’t even have to write javascript! 
 
 ## And... you can even delay animations
 
-Another scenario is delay divs on desktop, but not wanting them to be delayed on mobile.
+Another scenario is delaying divs on desktop, but not wanting them to be delayed on mobile.
 
 ```
 <div class="fade-up-desktop fade-mobile animation">Delayed 300ms</div>
