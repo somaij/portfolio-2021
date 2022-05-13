@@ -16,7 +16,9 @@ seo:
 ---
 Sometimes your environment may be so locked down that you can’t use an external animation library for either security or technical reasons. You may even find yourself confined to creating and editing pages through the backend of a CMS. I pride myself on finding workarounds, and I’ve finally found one for the biggest creative problem in my current role.
 
-Responsive on-scroll animations without an external library that doesn’t break your site
+**Responsive on-scroll animations without an external library that doesn’t break your site.**
+
+**Here's how I managed to do it:**
 
 ## Using the Intersection Observer (obviously)
 
