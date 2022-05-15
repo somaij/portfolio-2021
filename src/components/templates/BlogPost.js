@@ -126,8 +126,8 @@ const BlogPost = ({ data }) => {
             </Anime>
             </div>
         <div class="container">
-          <div class="row justify-content-center align-items-center justify-content-center justify-content-lg-start">
-            <div class="col-12 col-lg-8">
+          <div class="row justify-content-center align-items-center justify-content-center">
+            <div class="col-12 col-lg-6">
             <h2>{data.markdownRemark.frontmatter.cta.ctaTitle}</h2>
             <p>{data.markdownRemark.frontmatter.cta.ctaText}</p>
             </div>
