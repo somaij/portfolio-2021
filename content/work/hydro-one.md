@@ -14,6 +14,11 @@ glance:
     description: H﻿ow I simplified these important pages for our customers
     btntext: Learn More
     anchor: tips-tricks
+  - title: Energizing Ontario
+    description: S﻿ee how I've redesigned the blog page for Hydro One for clarity.
+    image: assets/energizing-ontario-masthead.jpg
+    anchor: "#energizing-ontario"
+    btntext: Look Now
 workContent:
   - sectionTitle: Tips & Tricks
     sectionText: >-
@@ -48,6 +53,21 @@ workContent:
 
 
       As the digital manager, I’ve continued to put emphasis on simple, pragmatic solutions that are elegant.  I've grown the team since becoming manager to include two full-time UX designer/developer positions.
+  - sectionTitle: Energizing Ontario
+    sectionText: >-
+      The Energizing Ontario blog is an important avenue that Hydro One uses to
+      showcase it’s positive initiatives and community investments. In my
+      redesign of the page, I’ve made it much simpler to search for specific
+      blogs using filterizr. 
+
+
+      <a href="#img3" id="img-3-link" class="lightbox-link"><img class="inline-image height-400" src="/assets/energizing-ontario-masthead.jpg"/></a><a href="#img-3-link" class="lightbox" id="img3"><span style="background-image: url('/assets/energizing-ontario-masthead.jpg')"></span></a>
+
+
+      I’ve also increased the clarity of each blog card and enforced a strict character count for each card.
+
+
+      <a href="#img4" id="img-4-link" class="lightbox-link"><img class="inline-image height-400" src="/assets/Blog-card-example.jpg"/></a><a href="#img-4-link" class="lightbox" id="img4"><span style="background-image: url('/assets/Blog-card-example.jpg')"></span></a>
 cta:
   ctaTitle: How's my work?
   ctaText: If you like it, send a message and we can discuss UX.
