@@ -34,27 +34,19 @@ workContent:
       **F﻿inal Page:** <https://www.hydroone.com/saving-money-and-energy/residential/tips-and-tools/appliances>
 
 
-      The first set of pages I focused on was the tips and tricks section of the hydroone.com website. As I worked on the first page in the roster, Cooling tips and tricks, I scoured the website to find the similar elements between each and found a way to bring a consistent look to each page. These pages are featured in our monthly newsletter.
-
-
+      I started by working on the tips and tricks section of the Hydro One website. My first task was to create a consistent look across all pages in the section, starting with the Cooling tips and tricks page. To achieve this, I reviewed each page to identify common elements and used a similar design style throughout. These pages were featured in the monthly newsletter.
 
 
       <img src="/assets/tips-masthead.png" style="margin:2rem 0;" />
 
 
-
-
-      In each masthead, I've brought a consistent call to action, a clear heading but have also modernized the web design with an overlapping style that doesn't detract from the image. 
-
-
+      For each page, I ensured there was a clear call-to-action in the masthead and modernized the design with overlapping elements that didn't detract from the image.
 
 
       <img src="/assets/tips-icons.png" style="margin:2rem 0;" />
 
 
-
-
-      The on page information is laid out in an easy to skim fashion that doesn’t throw too much information at the reader.
+      The on-page information was presented in a user-friendly layout, making it easy for readers to skim the content without being overwhelmed with too much information.
   - sectionTitle: Energizing Ontario
     sectionText: >-
       **P﻿age Design:**
