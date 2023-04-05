@@ -17,7 +17,7 @@ glance:
   - title: Energizing Ontario
     description: S﻿ee how I've redesigned the blog page for Hydro One for clarity.
     image: assets/energizing-ontario-masthead.jpg
-    anchor: "#energizing-ontario"
+    anchor: energizing-ontario
     btntext: Look Now
 workContent:
   - sectionTitle: Tips & Tricks
