@@ -47,6 +47,9 @@ workContent:
 
 
       The on-page information was presented in a user-friendly layout, making it easy for readers to skim the content without being overwhelmed with too much information.
+
+
+      Another improvement I made was adding a slider at the bottom of each page, which provides links to other pages within the tips section. This feature has resulted in increased time spent on the site and a lower bounce rate.
   - sectionTitle: Energizing Ontario
     sectionText: >-
       **P﻿age Design:**
