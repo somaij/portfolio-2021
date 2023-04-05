@@ -34,7 +34,7 @@ workContent:
 
 
 
-      <img src="/assets/tips-masthead.png"/>
+      <img src="/assets/tips-masthead.png" style="margin:2rem 0;" />
 
 
 
@@ -44,7 +44,7 @@ workContent:
 
 
 
-      <img src="/assets/tips-icons.png"/>
+      <img src="/assets/tips-icons.png" style="margin:2rem 0;" />
 
 
 
@@ -64,7 +64,7 @@ workContent:
 
 
 
-      <img src="/assets/energizing-ontario-masthead.jpg"/>
+      <img src="/assets/energizing-ontario-masthead.jpg" style="margin:2rem 0;" />
 
 
 
@@ -74,7 +74,7 @@ workContent:
 
 
 
-      <img src="/assets/Blog-card-example.jpg"/>
+      <img src="/assets/Blog-card-example.jpg" style="margin:2rem 0;" />
   - sectionTitle: A bit about my experience
     sectionText: >-
       Before my arrival, the organization had never had an in-house UX Designer.
