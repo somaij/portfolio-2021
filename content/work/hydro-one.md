@@ -82,16 +82,16 @@ workContent:
       <img src="/assets/Blog-card-example.jpg" style="margin:2rem 0;" />
   - sectionTitle: My growth at Hydro One
     sectionText: >-
-      Before my arrival, the organization had never had an in-house UX Designer.
-      It was my job to convince the executive team that a full-time web designer
-      was worth the investment. I successfully proved the value of a designer,
-      and got an extension on my contract.
+      When I joined the organization, they did not have an in-house UX designer.
+      I was tasked with convincing the executive team to invest in a full-time
+      web designer. After successfully proving the value of having a designer,
+      my contract was extended.
 
 
-      When I first arrived at Hydro One, a rebranding effort was underway. The current website was converted from the old red and black to teal, but otherwise, it was the same. All of my work stayed within the new brand colours, but I had the flexibility to interpret the existing brand and breathe new life into it. 
+      A rebranding effort was already underway when I arrived. The website had been updated to the new brand colour of teal, but otherwise remained the same. My work adhered to the new brand guidelines, but I had some flexibility to interpret and revitalize the existing brand. 
 
 
-      Now as the digital manager, I’ve continued to put emphasis on simple, pragmatic solutions that are elegant. I've grown the team to include two full-time UX designer/developer positions. Using my position, I continue to strive for UX excellence by advocating for best practices and tools to further improve the experience for our customers.
+      Since then, I have been promoted to digital manager and have continued to prioritize simple and elegant solutions with a focus on user experience. I have grown the team to include two full-time UX designer/developer positions and continue to advocate for best practices and tools to further improve our customers' experience.
 cta:
   ctaTitle: How's my work?
   ctaText: If you like it, send a message and we can discuss UX.
