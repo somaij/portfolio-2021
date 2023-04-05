@@ -32,28 +32,46 @@ workContent:
       The first set of pages I focused on was the tips and tricks section of the hydroone.com website. As I worked on the first page in the roster, Cooling tips and tricks, I scoured the website to find the similar elements between each and found a way to bring a consistent look to each page. These pages are featured in our monthly newsletter.
 
 
+
+
       <img src="/assets/tips-masthead.png"/>
+
+
 
 
       In each masthead, I've brought a consistent call to action, a clear heading but have also modernized the web design with an overlapping style that doesn't detract from the image. 
 
 
+
+
       <img src="/assets/tips-icons.png"/>
+
+
 
 
       The on page information is laid out in an easy to skim fashion that doesn’t throw too much information at the reader.
   - sectionTitle: Energizing Ontario
     sectionText: >-
-      The Energizing Ontario blog is an important avenue that Hydro One uses to
-      showcase it’s positive initiatives and community investments. In my
-      redesign of the page, I’ve made it much simpler to search for specific
-      blogs using filterizr. 
+      **P﻿age Design:**
+      <https://www.figma.com/proto/dGQbV5lWmGrdqIonhRgBpe/Energizing-Ontario?page-id=0%3A1&node-id=2-2&viewport=1111%2C401%2C0.88&scaling=min-zoom>
+
+
+      **L﻿ive Page:** <https://www.hydroone.com/about/energizing-ontario>
+
+
+      The Energizing Ontario blog is an important avenue that Hydro One uses to showcase it’s positive initiatives and community investments. In my redesign of the page, I’ve made it much simpler to search for specific blogs using filterizr. 
+
+
 
 
       <img src="/assets/energizing-ontario-masthead.jpg"/>
 
 
+
+
       I’ve also increased the clarity of each blog card and enforced a strict character count for each card.
+
+
 
 
       <img src="/assets/Blog-card-example.jpg"/>
