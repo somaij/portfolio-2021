@@ -27,13 +27,13 @@ workContent:
       The first set of pages I focused on was the tips and tricks section of the hydroone.com website. As I worked on the first page in the roster, Cooling tips and tricks, I scoured the website to find the similar elements between each and found a way to bring a consistent look to each page. These pages are featured in our monthly newsletter.
 
 
-      ![A tips and tricks masthead example](assets/tips-masthead.png)
+      <a href="#img1" id="img-1-link" class="lightbox-link"><img class="inline-image height-400" src="/assets/tips-masthead.png"/></a><a href="#img-1-link" class="lightbox" id="img1"><span style="background-image: url('/assets/tips-masthead.png')"></span></a>
 
 
       In each masthead, I've brought a consistent call to action, a clear heading but have also modernized the web design with an overlapping style that doesn't detract from the image. 
 
 
-      ![An example of simplification](assets/tips-icons.png)
+      <a href="#img2" id="img-2-link" class="lightbox-link"><img class="inline-image height-400" src="/assets/tips-icons.png"/></a><a href="#img-2-link" class="lightbox" id="img2"><span style="background-image: url('/assets/tips-icons.png')"></span></a>
 
 
       The on page information is laid out in an easy to skim fashion that doesn’t throw too much information at the reader.
