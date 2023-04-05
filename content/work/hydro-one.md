@@ -56,22 +56,22 @@ workContent:
       **L﻿ive Page:** <https://www.hydroone.com/about/energizing-ontario>
 
 
-      The Energizing Ontario blog is an important avenue that Hydro One uses to showcase it’s positive initiatives and community investments. In my redesign of the page, I’ve made it much simpler to search for specific blogs using filterizr. 
-
-
+      The Energizing Ontario blog is a significant platform used by Hydro One to highlight its positive initiatives and community investments. In my redesign of the page, I focused on improving the user experience by making it easier for visitors to search for specific blog posts using Filterizr.
 
 
       <img src="/assets/energizing-ontario-masthead.jpg" style="margin:2rem 0;" />
 
 
-
-
-      I’ve also increased the clarity of each blog card and enforced a strict character count for each card.
-
-
+      I have improved the clarity of each blog card by implementing a strict character count for each one. Although the elements were similar to the previous design, I aimed to modernize it by adding overlapping elements and optimizing their placement to improve ease of understanding with just a glance.
 
 
       <img src="/assets/Blog-card-example.jpg" style="margin:2rem 0;" />
+
+
+      In addition, I have revamped the blog pages themselves. I looked to Medium as a reference for font size and readability to ensure a pleasant reading experience for visitors. To make sharing easier, I incorporated a sticky social sidebar. Additionally, I added elements like a highlight box to draw attention to important pieces of content.
+
+
+      E﻿xample Blog: <https://www.hydroone.com/about/energizing-ontario/blog/trans-wellness>
   - sectionTitle: My growth at Hydro One
     sectionText: >-
       When I joined the organization, they did not have an in-house UX designer.
