@@ -13,7 +13,7 @@ glance:
     title: Tips & Tricks
     description: H﻿ow I simplified these important pages for our customers
     btntext: Learn More
-    anchor: "#tips-tricks"
+    anchor: tips-tricks
 workContent:
   - sectionTitle: Tips & Tricks
     sectionText: >-
