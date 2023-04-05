@@ -2,7 +2,7 @@
 templateKey: work-post
 order: "1"
 path: tla
-title: Triangle Learning Academy
+title: TLA (Canadian Tire HR)
 description: UX/UI Developer
 image: assets/tla-2.jpg
 summary: The Triangle Learning Academy is an internal-facing learning platform
