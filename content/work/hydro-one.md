@@ -20,9 +20,9 @@ glance:
     anchor: energizing-ontario
     btntext: Look Now
   - image: assets/fre-sonneveld-q6n8nirdqhe-unsplash.jpg
-    title: My Hydro One Experience
-    description: How have I grown at Hydro One?
-    btntext: Learn More
+    title: My Experience
+    description: I've gone from a contractor to the Digital Manager at Hydro One
+    btntext: Read More
     anchor: my-growth-at-hydro-one
 workContent:
   - sectionTitle: Tips & Tricks
