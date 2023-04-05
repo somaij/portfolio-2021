@@ -5,9 +5,10 @@ path: hydro-one
 title: Hydro One
 description: UX Design Leadership
 image: assets/evgeniy-alyoshin-fxw3zkbqd0w-unsplash.jpg
-summary: A﻿t Hydro One, I have proven the importance of UX and good design. I've
-  unified the tips and tricks section, created numerous marketing campaign
-  webpages and have strived to provide clarity to a misunderstood organization.
+summary: During my time at Hydro One, I have demonstrated the value of UX and
+  good design. I unified the tips and tricks section, developed multiple
+  marketing campaign webpages, and endeavored to bring clarity to a
+  misunderstood organization.
 glance:
   - image: assets/tips-masthead.png
     title: Tips & Tricks
