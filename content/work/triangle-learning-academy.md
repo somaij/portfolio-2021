@@ -173,7 +173,7 @@ cta:
   ctaText: Connect and we can discuss UX!
   ctaBtn: Get in Touch
 seo:
-  seoTitle: "Triangle Learning Academy - Designing with Figma | Jason Somai "
+  seoTitle: "TLA (Canadian Tire HR) - Designing with Figma | Jason Somai "
   seoDescription: The Triangle Learning Academy is a Canadian Tire initiative to
     encourage continuous growth in their employees. I've designed and developed
     a number of pages to increase conversions. Check out how I did it!
