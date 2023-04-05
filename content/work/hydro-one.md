@@ -8,6 +8,12 @@ image: assets/evgeniy-alyoshin-fxw3zkbqd0w-unsplash.jpg
 summary: A﻿t Hydro One, I have proven the importance of UX and good design. I've
   unified the tips and tricks section, created numerous marketing campaign
   webpages and have strived to provide clarity to a misunderstood organization.
+glance:
+  - image: assets/tips-masthead.png
+    title: Tips & Tricks
+    description: H﻿ow I simplified these important pages for our customers
+    btntext: Learn More
+    anchor: "#"
 workContent:
   - sectionTitle: Tips & Tricks
     sectionText: >-
