@@ -19,6 +19,11 @@ glance:
     image: assets/energizing-ontario-masthead.jpg
     anchor: energizing-ontario
     btntext: Look Now
+  - image: assets/fre-sonneveld-q6n8nirdqhe-unsplash.jpg
+    title: My Hydro One Experience
+    description: How have I grown at Hydro One?
+    btntext: Learn More
+    anchor: my-growth-at-hydro-one
 workContent:
   - sectionTitle: Tips & Tricks
     sectionText: >-
@@ -75,17 +80,18 @@ workContent:
 
 
       <img src="/assets/Blog-card-example.jpg" style="margin:2rem 0;" />
-  - sectionTitle: A bit about my experience
+  - sectionTitle: My growth at Hydro One
     sectionText: >-
       Before my arrival, the organization had never had an in-house UX Designer.
       It was my job to convince the executive team that a full-time web designer
-      was worth the investment.
+      was worth the investment. I successfully proved the value of a designer,
+      and got an extension on my contract.
 
 
       When I first arrived at Hydro One, a rebranding effort was underway. The current website was converted from the old red and black to teal, but otherwise, it was the same. All of my work stayed within the new brand colours, but I had the flexibility to interpret the existing brand and breathe new life into it. 
 
 
-      As the digital manager, I’ve continued to put emphasis on simple, pragmatic solutions that are elegant.  I've grown the team since becoming manager to include two full-time UX designer/developer positions.
+      Now as the digital manager, I’ve continued to put emphasis on simple, pragmatic solutions that are elegant. I've grown the team to include two full-time UX designer/developer positions. Using my position, I continue to strive for UX excellence by advocating for best practices and tools to further improve the experience for our customers.
 cta:
   ctaTitle: How's my work?
   ctaText: If you like it, send a message and we can discuss UX.
