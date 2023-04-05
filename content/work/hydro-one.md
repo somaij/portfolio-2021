@@ -42,17 +42,6 @@ workContent:
 
 
       The on page information is laid out in an easy to skim fashion that doesn’t throw too much information at the reader.
-  - sectionTitle: A bit about my experience
-    sectionText: >-
-      Before my arrival, the organization had never had an in-house UX Designer.
-      It was my job to convince the executive team that a full-time web designer
-      was worth the investment.
-
-
-      When I first arrived at Hydro One, a rebranding effort was underway. The current website was converted from the old red and black to teal, but otherwise, it was the same. All of my work stayed within the new brand colours, but I had the flexibility to interpret the existing brand and breathe new life into it. 
-
-
-      As the digital manager, I’ve continued to put emphasis on simple, pragmatic solutions that are elegant.  I've grown the team since becoming manager to include two full-time UX designer/developer positions.
   - sectionTitle: Energizing Ontario
     sectionText: >-
       The Energizing Ontario blog is an important avenue that Hydro One uses to
@@ -67,7 +56,18 @@ workContent:
       I’ve also increased the clarity of each blog card and enforced a strict character count for each card.
 
 
-      <a href="#img4" id="img-4-link" class="lightbox-link"><img class="inline-image height-400" src="/assets/Blog-card-example.jpg"/></a><a href="#img-4-link" class="lightbox" id="img4"><span style="background-image: url('/assets/Blog-card-example.jpg')"></span></a>
+      <img class="inline-image height-400" src="/assets/Blog-card-example.jpg"/>
+  - sectionTitle: A bit about my experience
+    sectionText: >-
+      Before my arrival, the organization had never had an in-house UX Designer.
+      It was my job to convince the executive team that a full-time web designer
+      was worth the investment.
+
+
+      When I first arrived at Hydro One, a rebranding effort was underway. The current website was converted from the old red and black to teal, but otherwise, it was the same. All of my work stayed within the new brand colours, but I had the flexibility to interpret the existing brand and breathe new life into it. 
+
+
+      As the digital manager, I’ve continued to put emphasis on simple, pragmatic solutions that are elegant.  I've grown the team since becoming manager to include two full-time UX designer/developer positions.
 cta:
   ctaTitle: How's my work?
   ctaText: If you like it, send a message and we can discuss UX.
