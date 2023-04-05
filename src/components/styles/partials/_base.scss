@@ -280,6 +280,11 @@ svg path{
 				width:100%;
 				height:100%;
 				position: relative;
+				border-radius: 8px;
+				@media screen and (max-width:767px){
+					border-bottom-left-radius: 0;
+					border-bottom-right-radius: 0;
+				}
 			}
 		}
 		h4{
@@ -294,10 +299,14 @@ svg path{
 			height: 100%;
 			z-index: 2;
 			position: relative;
+			border-radius: 8px;
 			@media screen and (max-width:767px){
 				width: 100%;
 				padding:2rem;
+				height: auto;
 				font-size:0.9rem;
+				border-top-left-radius: 0;
+				border-top-right-radius: 0;
 			}
 		}
 		.socials{
@@ -322,8 +331,12 @@ svg path{
 			backdrop-filter: blur(2px);
 		padding:1.2rem 1rem 1rem;
 		width:100%;
-		border:1px solid transparent;
+		border:1px solid #DDD;
 		transition:250ms all ease;
+		border-radius: 4px;
+		&:focus{
+			border-color: $blue;
+		}
 		&:valid{
 			background-color:transparent;
 			border-color:rgba($blue,0.5);
@@ -339,9 +352,9 @@ svg path{
 	}
 	form > div > label {
 		position: absolute;
-		font-size: 10px;
-		top: .25rem;
-		left: 15px;
+		font-size: 11px;
+		top: .30rem;
+		left: 16px;
 		transition: all .1s ease-in-out;
 		z-index: 1;
 		@extend .sub;
