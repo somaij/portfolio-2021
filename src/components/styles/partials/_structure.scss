@@ -477,7 +477,7 @@ footer {
 	&:before {
 		width: calc(100% + 200px);
 		height: 100%;
-		background: linear-gradient(255.43deg, rgba($dark-gray, 0) 0%, rgba($dark-gray, 0.25) 31.56%, rgba($dark-gray, 0.75) 100%);
+		background: linear-gradient(255.43deg, rgba($dark-gray, 0) 0%, rgba($dark-gray, 0.15) 31.56%, rgba($dark-gray, 0.75) 100%);
 		position: absolute;
 		top: 0;
 		left: -200px;
@@ -509,7 +509,7 @@ footer {
 		position: relative;
 		z-index: 4;
 		color: #FFF;
-		padding: 2rem;
+		padding: 1rem 1.5rem;
 		transition:250ms all ease;
 		h3 {
 			color: #FFF;
