@@ -15,6 +15,7 @@
     "gatsby-image": "^2.5.0",
     "gatsby-mdx": "^1.0.0",
     "gatsby-plugin-anchor-links": "^1.2.0",
+    "gatsby-plugin-google-tagmanager": "^5.8.0",
     "gatsby-plugin-hotjar": "^1.1.1",
     "gatsby-plugin-manifest": "^2.6.1",
     "gatsby-plugin-mdx": "^1.7.0",
